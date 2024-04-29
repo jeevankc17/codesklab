@@ -85,7 +85,7 @@ const WhyCodeskPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-darkslategray font-body-tiny-400">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black font-body-tiny-400 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[5]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
@@ -97,13 +97,13 @@ const WhyCodeskPage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-tiny-400 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black font-body-tiny-400 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <div
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onCoursesContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       Courses
                     </button>
                   </div>
@@ -128,7 +128,7 @@ const WhyCodeskPage: FunctionComponent = () => {
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onAboutUsContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       About Us
                     </button>
                   </div>
@@ -159,13 +159,13 @@ const WhyCodeskPage: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[4] text-left text-nero lg:flex-col md:flex-col">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[4] text-left text-29xl text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
-              <div className="self-stretch relative leading-[120%] font-semibold">{`Building the Nepal’s largest & most loved coding school for kids & teens and adult`}</div>
+              <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">{`Building the Nepal’s largest & most loved coding school for kids & teens and adult`}</div>
             </div>
             <div className="self-stretch flex flex-col items-start justify-start text-base">
-              <div className="self-stretch relative leading-[120%] font-semibold">
+              <div className="self-stretch relative leading-[150%]">
                 <p className="m-0">
                   InnovatorsHome started with a dream to inspire school kids
                 </p>
@@ -179,10 +179,10 @@ const WhyCodeskPage: FunctionComponent = () => {
           <img
             className="flex-1 relative max-w-full overflow-hidden h-[516.2px] object-cover lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch"
             alt=""
-            src="/image-56@2x.png"
+            src="/image-5@2x.png"
           />
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[30px] z-[3] text-17xl">
+        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[30px] z-[3] text-17xl sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <div className="flex-1 relative leading-[120%] font-semibold">
@@ -191,13 +191,13 @@ const WhyCodeskPage: FunctionComponent = () => {
             </div>
             <div className="self-stretch h-[41px]" />
           </div>
-          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-13xl">
+          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-13xl sm:pl-[5px] sm:pr-[5px] sm:box-border">
             <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
               <div className="flex-1 bg-nero flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                 <img
                   className="w-[380px] relative h-[325px] overflow-hidden shrink-0"
                   alt=""
-                  src="/reason5svg2.svg"
+                  src="/reason5svg1.svg"
                 />
               </div>
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[70px] lg:flex-[unset] lg:self-stretch md:pl-2.5 md:pr-2.5 md:box-border md:flex-[unset] md:self-stretch">
@@ -208,7 +208,7 @@ const WhyCodeskPage: FunctionComponent = () => {
                         Curriculum
                       </div>
                     </div>
-                    <div className="w-[525px] bg-nero hidden flex-row items-center justify-center p-2.5 box-border text-base">
+                    <div className="w-[525px] bg-nero hidden flex-row items-center justify-center p-2.5 box-border text-base text-darkslategray">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         1
                       </div>
@@ -249,7 +249,7 @@ const WhyCodeskPage: FunctionComponent = () => {
                 <img
                   className="w-[380px] relative h-[348px] overflow-hidden shrink-0"
                   alt=""
-                  src="/reason2svg1.svg"
+                  src="/reason2svg.svg"
                 />
               </div>
             </div>
@@ -339,7 +339,7 @@ const WhyCodeskPage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[2] text-13xl">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[2] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Why Codingal offers more value for the price?
@@ -414,7 +414,7 @@ const WhyCodeskPage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[1] text-13xl">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[1] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start pt-0 px-[58px] pb-[0.5px]">
             <div className="w-full relative leading-[120%] font-semibold inline-block max-w-[1128px]">
               Why children should learn to code?
@@ -486,18 +486,18 @@ const WhyCodeskPage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch rounded-mini flex flex-col items-center justify-start z-[0] text-left text-black1">
+        <div className="self-stretch rounded-mini flex flex-col items-center justify-start z-[0] text-left">
           <img
             className="self-stretch relative max-w-full overflow-hidden h-[91px] shrink-0 object-cover"
             alt=""
             src="/subscribe-section-background4@2x.png"
           />
-          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
+          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-[5px] sm:box-border">
             <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
-              <div className="w-[255px] relative leading-[120%] inline-block">
+              <div className="w-[255px] relative leading-[120%] font-semibold inline-block">
                 CoDesk
               </div>
-              <div className="self-stretch h-[189px] relative text-lg leading-[150%] font-semibold text-nero inline-block">
+              <div className="self-stretch h-[189px] relative text-lg leading-[150%] text-nero inline-block">
                 The CoDesk is on a mission to inspire school kids in Nepal to
                 fall in love with coding. Coding is proven to develop
                 creativity, logical thinking, and problem-solving skills in
@@ -506,21 +506,21 @@ const WhyCodeskPage: FunctionComponent = () => {
                 Kids who start learning to code at a young age are guaranteed to
                 become leaders, creators, and entrepreneurs of the future.
               </div>
-              <div className="w-[130px] relative h-[30px]">
+              <div className="flex flex-row items-start justify-start gap-[20px]">
                 <img
-                  className="absolute top-[0px] left-[0px] w-[30px] h-[30px] overflow-hidden"
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
                   alt=""
                   src="/entyposocialfacebookwithcircle.svg"
                 />
                 <img
-                  className="absolute top-[0px] left-[100px] w-[30px] h-[30px] overflow-hidden"
-                  alt=""
-                  src="/entyposocialtwitterwithcircle.svg"
-                />
-                <img
-                  className="absolute top-[0px] left-[50px] w-[30px] h-[30px] overflow-hidden"
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
                   alt=""
                   src="/entyposocialinstagramwithcircle.svg"
+                />
+                <img
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                  alt=""
+                  src="/entyposocialtwitterwithcircle.svg"
                 />
               </div>
             </div>
@@ -533,7 +533,7 @@ const WhyCodeskPage: FunctionComponent = () => {
                 >
                   About Us
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-semibold inline-block w-[174.7px]">
+                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[174.7px]">
                   Company
                 </div>
                 <div
@@ -552,43 +552,43 @@ const WhyCodeskPage: FunctionComponent = () => {
                   className="absolute top-[140.8px] left-[0px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
                   onClick={onHowWeWorkClick}
                 >
-                  How we work?
+                  How we work
                 </div>
               </div>
-              <div className="w-[197.8px] relative h-[164.8px] sm:!mb-[40px]">
+              <div className="w-[197.9px] relative h-[164.8px] sm:!mb-[40px]">
                 <div
-                  className="absolute top-[47.8px] left-[0.5px] leading-[150%] inline-block w-[109.6px] cursor-pointer"
+                  className="absolute top-[47.8px] left-[0.6px] leading-[150%] inline-block w-[109.6px] cursor-pointer"
                   onClick={onScratchTextClick}
                 >
                   Scratch
                 </div>
-                <div className="absolute top-[0px] left-[0.5px] text-xl leading-[150%] font-semibold inline-block w-[131.6px]">
-                  Courses
+                <div className="absolute top-[0px] left-[0.6px] text-xl leading-[150%] font-medium inline-block w-[131.6px]">
+                  Best Courses
                 </div>
                 <div
-                  className="absolute top-[78.8px] left-[0.5px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
+                  className="absolute top-[78.8px] left-[0.6px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
                   onClick={onWebDevelopmentTextClick}
                 >
                   Web Development
                 </div>
                 <div
-                  className="absolute top-[109.9px] left-[0px] leading-[150%] inline-block w-[156px] cursor-pointer"
+                  className="absolute top-[109.9px] left-[0px] leading-[150%] inline-block w-[165px] cursor-pointer"
                   onClick={onGameDevelopmentTextClick}
                 >
-                  App Development
+                  Game Development
                 </div>
                 <div
-                  className="absolute top-[140.8px] left-[0.5px] leading-[150%] inline-block w-[164.4px] cursor-pointer"
+                  className="absolute top-[140.8px] left-[0.6px] leading-[150%] inline-block w-[164.4px] cursor-pointer"
                   onClick={onPythonTextClick}
                 >
                   Python
                 </div>
               </div>
-              <div className="w-[197.3px] relative h-[164.8px]">
+              <div className="w-[197.3px] relative h-[159.8px]">
                 <div className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[172.9px]">
                   Worksheet
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[27px] font-medium font-roboto inline-block w-[76.7px]">
+                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[76.7px]">
                   More
                 </div>
                 <div
@@ -604,7 +604,7 @@ const WhyCodeskPage: FunctionComponent = () => {
                   Quiz
                 </div>
                 <div
-                  className="absolute top-[140.8px] left-[0px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
+                  className="absolute top-[140.8px] left-[0px] font-roboto inline-block w-[197.3px] cursor-pointer"
                   onClick={onCompetetionTextClick}
                 >
                   Competetion

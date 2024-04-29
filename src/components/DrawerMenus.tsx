@@ -118,7 +118,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
           </div>
         </div>
         <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-aliceblue" />
-        <div className="flex flex-col items-start justify-start gap-[28px] text-base text-black">
+        <div className="flex flex-col items-start justify-start gap-[28px] text-base text-black1">
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
             to="/"

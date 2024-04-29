@@ -157,7 +157,7 @@ const CompetetionPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-29xl text-nero font-inter">
+      <div className="w-full relative bg-nero flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-29xl text-black font-body-tiny-400 sm:py-[30px] sm:px-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
@@ -169,13 +169,13 @@ const CompetetionPage: FunctionComponent = () => {
                   CoDesk
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-tiny-400 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black font-body-tiny-400 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <div
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onCoursesContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       Courses
                     </button>
                   </div>
@@ -200,7 +200,7 @@ const CompetetionPage: FunctionComponent = () => {
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onAboutUsContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       About Us
                     </button>
                   </div>
@@ -231,15 +231,15 @@ const CompetetionPage: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[2] font-body-tiny-400 lg:flex-col md:flex-col">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[2] text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
-              <div className="self-stretch relative leading-[120%] font-semibold">
+              <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">
                 Competitive Programing
               </div>
             </div>
             <div className="self-stretch flex flex-col items-start justify-start text-base">
-              <div className="self-stretch relative leading-[120%] font-semibold">
+              <div className="self-stretch relative leading-[150%]">
                 Competitive programming for kids offers a myriad of advantages,
                 providing them with a structured platform to enhance
                 problem-solving skills, logical reasoning, and algorithmic
@@ -261,25 +261,25 @@ const CompetetionPage: FunctionComponent = () => {
           <img
             className="flex-1 relative max-w-full overflow-hidden h-[500px] object-cover lg:order-[1] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch"
             alt=""
-            src="/image-52@2x.png"
+            src="/image-5@2x.png"
           />
         </div>
         <div
-          className="self-stretch flex flex-row items-start justify-center gap-[20px] relative cursor-pointer z-[1] text-center text-15xl-6 text-darkslategray lg:flex-col md:flex-col"
+          className="self-stretch flex flex-row items-start justify-center gap-[20px] relative cursor-pointer z-[1] text-center text-15xl-6 font-inter lg:flex-col md:flex-col"
           onClick={onBodyContainerClick}
         >
           <div className="w-[900px] flex flex-col items-start justify-start z-[1] lg:self-stretch lg:w-auto md:w-full">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5 z-[2]">
               <b className="flex-1 relative leading-[42px]">{`All coding competitions & hackathons`}</b>
             </div>
-            <div className="self-stretch bg-nero flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-px gap-[32px] sticky top-[77] [background:white] z-[1] text-xs text-black1 font-body-tiny-400">
+            <div className="self-stretch bg-nero flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-px gap-[32px] sticky top-[77] [background:white] z-[1] text-xs font-body-tiny-400">
               <div
                 className="w-[121px] rounded bg-nero h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer text-aqua-deep"
                 onClick={onLabelliveContainerClick}
               >
                 <div className="flex-1 relative leading-[130%] font-semibold">
                   <span>Live</span>
-                  <span className="text-black1">{` `}</span>
+                  <span className="text-black">{` `}</span>
                 </div>
                 <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero font-segoe-ui">
                   <div className="flex-1 relative leading-[21px] font-semibold">
@@ -321,8 +321,8 @@ const CompetetionPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start p-5 gap-[16px] z-[0] text-left text-lgi-5 text-aqua-deep font-segoe-ui">
-              <div className="self-stretch flex flex-col items-center justify-center pt-[50px] px-0 pb-0 gap-[16px] relative text-center text-5xl font-body-tiny-400">
+            <div className="self-stretch flex flex-col items-start justify-start p-5 gap-[16px] z-[0] text-left text-lgi-5 font-segoe-ui">
+              <div className="self-stretch flex flex-col items-center justify-center pt-[50px] px-0 pb-0 gap-[16px] relative text-center text-5xl text-aqua-deep font-body-tiny-400">
                 <div className="self-stretch flex flex-col items-start justify-start text-left text-lgi-5 font-segoe-ui">
                   <div className="self-stretch relative leading-[30px] font-semibold">
                     Live
@@ -342,13 +342,13 @@ const CompetetionPage: FunctionComponent = () => {
                             Nepal CodeWars 2024 Kid’s Hackathon
                           </div>
                         </div>
-                        <div className="self-stretch flex flex-row items-start justify-start text-base text-codex-color-chateau-green">
+                        <div className="self-stretch flex flex-row items-start justify-start text-base text-chateau-green">
                           <div className="flex-1 relative leading-[150%]">
                             Hosted by: Hewlett CoDesk Innovations
                           </div>
                         </div>
                       </div>
-                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black1">
+                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black">
                         <div className="self-stretch flex flex-row items-center justify-start">
                           <div className="flex-1 relative leading-[120%] font-semibold">
                             Team size: Upto 3 members
@@ -363,7 +363,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-codex-color-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
                     onClick={onButtonsgreenContentContainerClick}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">{`Register & Join`}</div>
@@ -383,13 +383,13 @@ const CompetetionPage: FunctionComponent = () => {
                             Nepal CodeWars 2024 Kid’s Hackathon
                           </div>
                         </div>
-                        <div className="self-stretch flex flex-row items-start justify-start text-base text-codex-color-chateau-green">
+                        <div className="self-stretch flex flex-row items-start justify-start text-base text-chateau-green">
                           <div className="flex-1 relative leading-[150%]">
                             Hosted by: Hewlett CoDesk Innovations
                           </div>
                         </div>
                       </div>
-                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black1">
+                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black">
                         <div className="self-stretch flex flex-row items-center justify-start">
                           <div className="flex-1 relative leading-[120%] font-semibold">
                             Team size: Upto 3 members
@@ -404,7 +404,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-codex-color-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
                     onClick={onButtonsgreenContentContainer2Click}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">{`Register & Join`}</div>
@@ -421,7 +421,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Upcoming
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl font-body-tiny-400">
+                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-tiny-400">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -435,13 +435,13 @@ const CompetetionPage: FunctionComponent = () => {
                             Nepal CodeWars 2024 Kid’s Hackathon
                           </div>
                         </div>
-                        <div className="self-stretch flex flex-row items-start justify-start text-base text-codex-color-chateau-green">
+                        <div className="self-stretch flex flex-row items-start justify-start text-base text-chateau-green">
                           <div className="flex-1 relative leading-[150%]">
                             Hosted by: Hewlett Packard Enterprise
                           </div>
                         </div>
                       </div>
-                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black1">
+                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black">
                         <div className="self-stretch flex flex-row items-center justify-start">
                           <div className="flex-1 relative leading-[120%] font-semibold">
                             Team size: Upto 3 members
@@ -476,7 +476,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Practice
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl font-body-tiny-400">
+                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-tiny-400">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -490,13 +490,13 @@ const CompetetionPage: FunctionComponent = () => {
                             HPE CodeWars 2024 Hackathon
                           </div>
                         </div>
-                        <div className="self-stretch flex flex-row items-start justify-start text-base text-codex-color-chateau-green">
+                        <div className="self-stretch flex flex-row items-start justify-start text-base text-chateau-green">
                           <div className="flex-1 relative leading-[150%]">
                             Hosted by: Hewlett Packard Enterprise
                           </div>
                         </div>
                       </div>
-                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black1">
+                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black">
                         <div className="self-stretch flex flex-row items-center justify-start">
                           <div className="flex-1 relative leading-[120%] font-semibold">
                             Team size: Upto 3 members
@@ -511,7 +511,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-codex-color-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full"
                     onClick={onButtonsgreenContentContainer3Click}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">
@@ -530,7 +530,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Completed
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl font-body-tiny-400">
+                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-tiny-400">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -544,13 +544,13 @@ const CompetetionPage: FunctionComponent = () => {
                             HPE CodeWars 2024 Hackathon
                           </div>
                         </div>
-                        <div className="self-stretch flex flex-row items-start justify-start text-base text-codex-color-chateau-green">
+                        <div className="self-stretch flex flex-row items-start justify-start text-base text-chateau-green">
                           <div className="flex-1 relative leading-[150%]">
                             Hosted by: Hewlett Packard Enterprise
                           </div>
                         </div>
                       </div>
-                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black1">
+                      <div className="self-stretch flex flex-col items-start justify-start text-sm text-black">
                         <div className="self-stretch flex flex-row items-center justify-start">
                           <div className="flex-1 relative leading-[120%] font-semibold">
                             Team size: Upto 3 members
@@ -580,7 +580,7 @@ const CompetetionPage: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex-1 flex flex-row items-start justify-center z-[0] text-left text-5xl text-wwwcodingalcom-mine-shaft font-body-tiny-400 lg:w-full lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+          <div className="self-stretch flex-1 flex flex-row items-start justify-center z-[0] text-left text-5xl font-body-tiny-400 lg:w-full lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
             <div className="w-[350px] rounded-3xs bg-nero flex flex-col items-center justify-start p-2.5 box-border gap-[15px] sticky top-[77] lg:flex md:flex">
               <div className="self-stretch relative leading-[150%] font-semibold text-transparent !bg-clip-text [background:linear-gradient(16.28deg,_)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">{`Play while you learn & win amazing prizes`}</div>
               <img
@@ -615,7 +615,7 @@ const CompetetionPage: FunctionComponent = () => {
             data-scroll-to="bodyContainer"
           />
         </div>
-        <div className="self-stretch flex flex-col items-center justify-start z-[0] text-13xl text-black1">
+        <div className="self-stretch flex flex-col items-center justify-start z-[0] text-13xl sm:pl-[05px] sm:pr-[5px] sm:box-border">
           <img
             className="self-stretch relative max-w-full overflow-hidden h-[91px] shrink-0 object-cover"
             alt=""
@@ -623,10 +623,10 @@ const CompetetionPage: FunctionComponent = () => {
           />
           <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
             <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
-              <div className="w-[255px] relative tracking-[-0.01em] leading-[40px] font-semibold inline-block">
+              <div className="w-[255px] relative leading-[120%] font-semibold inline-block">
                 CoDesk
               </div>
-              <div className="self-stretch h-[162px] relative text-lg leading-[27px] font-roboto text-nero inline-block">
+              <div className="self-stretch h-[189px] relative text-lg leading-[150%] text-nero inline-block">
                 The CoDesk is on a mission to inspire school kids in Nepal to
                 fall in love with coding. Coding is proven to develop
                 creativity, logical thinking, and problem-solving skills in
@@ -635,105 +635,105 @@ const CompetetionPage: FunctionComponent = () => {
                 Kids who start learning to code at a young age are guaranteed to
                 become leaders, creators, and entrepreneurs of the future.
               </div>
-              <div className="w-[130px] relative h-[30px]">
+              <div className="flex flex-row items-start justify-start gap-[20px]">
                 <img
-                  className="absolute top-[0px] left-[0px] w-[30px] h-[30px] overflow-hidden"
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
                   alt=""
                   src="/entyposocialfacebookwithcircle.svg"
                 />
                 <img
-                  className="absolute top-[0px] left-[100px] w-[30px] h-[30px] overflow-hidden"
-                  alt=""
-                  src="/entyposocialtwitterwithcircle.svg"
-                />
-                <img
-                  className="absolute top-[0px] left-[50px] w-[30px] h-[30px] overflow-hidden"
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
                   alt=""
                   src="/entyposocialinstagramwithcircle.svg"
+                />
+                <img
+                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                  alt=""
+                  src="/entyposocialtwitterwithcircle.svg"
                 />
               </div>
             </div>
             <div className="w-px relative box-border h-[157.9px] border-r-[1px] border-solid border-gray1-500 md:hidden" />
-            <div className="flex-1 flex flex-row items-start justify-between text-base text-nero font-roboto md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
-              <div className="w-[197.3px] relative h-[159.8px] sm:!mb-[40px]">
+            <div className="flex-1 flex flex-row items-start justify-between text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
+              <div className="w-[197.3px] relative h-[164.8px] sm:!mb-[40px]">
                 <div
-                  className="absolute top-[47.8px] left-[0px] inline-block w-[135.7px] cursor-pointer"
+                  className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[135.7px] cursor-pointer"
                   onClick={onAboutUsTextClick}
                 >
                   About Us
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[27px] font-medium inline-block w-[174.7px]">
+                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[174.7px]">
                   Company
                 </div>
                 <div
-                  className="absolute top-[78.8px] left-[0px] inline-block w-[84.3px] cursor-pointer"
+                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[84.3px] cursor-pointer"
                   onClick={onNewsTextClick}
                 >
                   News
                 </div>
                 <div
-                  className="absolute top-[109.8px] left-[0px] inline-block w-[115.1px] cursor-pointer"
+                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[115.1px] cursor-pointer"
                   onClick={onCareersTextClick}
                 >
                   Careers
                 </div>
                 <div
-                  className="absolute top-[140.8px] left-[0px] inline-block w-[197.3px] cursor-pointer"
+                  className="absolute top-[140.8px] left-[0px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
                   onClick={onHowWeWorkClick}
                 >
                   How we work
                 </div>
               </div>
-              <div className="w-[197.8px] relative h-[159.8px] sm:!mb-[40px]">
+              <div className="w-[197.9px] relative h-[164.8px] sm:!mb-[40px]">
                 <div
-                  className="absolute top-[47.8px] left-[0.5px] inline-block w-[109.6px] cursor-pointer"
+                  className="absolute top-[47.8px] left-[0.6px] leading-[150%] inline-block w-[109.6px] cursor-pointer"
                   onClick={onScratchTextClick}
                 >
                   Scratch
                 </div>
-                <div className="absolute top-[0px] left-[0.5px] text-xl leading-[27px] font-medium inline-block w-[131.6px]">
+                <div className="absolute top-[0px] left-[0.6px] text-xl leading-[150%] font-medium inline-block w-[131.6px]">
                   Best Courses
                 </div>
                 <div
-                  className="absolute top-[78.8px] left-[0.5px] inline-block w-[197.3px] cursor-pointer"
+                  className="absolute top-[78.8px] left-[0.6px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
                   onClick={onWebDevelopmentTextClick}
                 >
                   Web Development
                 </div>
                 <div
-                  className="absolute top-[109.9px] left-[0px] inline-block w-[156px] cursor-pointer"
+                  className="absolute top-[109.9px] left-[0px] leading-[150%] inline-block w-[165px] cursor-pointer"
                   onClick={onGameDevelopmentTextClick}
                 >
                   Game Development
                 </div>
                 <div
-                  className="absolute top-[140.8px] left-[0.5px] inline-block w-[164.4px] cursor-pointer"
+                  className="absolute top-[140.8px] left-[0.6px] leading-[150%] inline-block w-[164.4px] cursor-pointer"
                   onClick={onPythonTextClick}
                 >
                   Python
                 </div>
               </div>
               <div className="w-[197.3px] relative h-[159.8px]">
-                <div className="absolute top-[47.8px] left-[0px] inline-block w-[172.9px]">
+                <div className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[172.9px]">
                   Worksheet
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[27px] font-medium inline-block w-[76.7px]">
+                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[76.7px]">
                   More
                 </div>
                 <div
-                  className="absolute top-[78.8px] left-[0px] inline-block w-[135.4px] cursor-pointer"
+                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[135.4px] cursor-pointer"
                   onClick={onBlogsTextClick}
                 >
                   Blogs
                 </div>
                 <div
-                  className="absolute top-[109.8px] left-[0px] inline-block w-[50.6px] cursor-pointer"
+                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[50.6px] cursor-pointer"
                   onClick={onQuizTextClick}
                 >
                   Quiz
                 </div>
                 <div
-                  className="absolute top-[140.8px] left-[0px] inline-block w-[197.3px] cursor-pointer"
+                  className="absolute top-[140.8px] left-[0px] font-roboto inline-block w-[197.3px] cursor-pointer"
                   onClick={onCompetetionTextClick}
                 >
                   Competetion

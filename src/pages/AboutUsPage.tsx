@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import DrawerMenus from "../components/DrawerMenus";
 import PortalDrawer from "../components/PortalDrawer";
 
@@ -7,19 +7,19 @@ const AboutUsPage: FunctionComponent = () => {
   const navigate = useNavigate();
   const [isDrawerMenusOpen, setDrawerMenusOpen] = useState(false);
 
-  const onLogoContainerClick = useCallback(() => {
+  const onLogoClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
-  const onCoursesContainerClick = useCallback(() => {
+  const onCoursesClick = useCallback(() => {
     navigate("/coursepage");
   }, [navigate]);
 
-  const onQuizzesContainerClick = useCallback(() => {
+  const onQuizzesClick = useCallback(() => {
     navigate("/quizpage");
   }, [navigate]);
 
-  const onCompetetionsContainerClick = useCallback(() => {
+  const onCompetetionsClick = useCallback(() => {
     navigate("/competetionpage");
   }, [navigate]);
 
@@ -48,83 +48,75 @@ const AboutUsPage: FunctionComponent = () => {
     }
   }, []);
 
-  const onAboutUsTextClick = useCallback(() => {
+  const onAboutUs1Click = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onNewsTextClick = useCallback(() => {
+  const onPartnershipsClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onCareersTextClick = useCallback(() => {
+  const onCareersClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onHowWeWorkClick = useCallback(() => {
+  const onWhyCoDeskClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onScratchTextClick = useCallback(() => {
+  const onPythonClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onWebDevelopmentTextClick = useCallback(() => {
+  const onBlogsClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onGameDevelopmentTextClick = useCallback(() => {
+  const onQuizClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onPythonTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onBlogsTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onQuizTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onCompetetionTextClick = useCallback(() => {
+  const onCompetetionClick = useCallback(() => {
     //TODO: link
   }, []);
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black font-body-tiny-400 sm:pl-[5px] sm:pr-[5px] sm:box-border">
-        <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[5]">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black font-segoe-ui sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[4]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
-              <div
-                className="flex flex-row items-center justify-center p-2.5 cursor-pointer"
-                onClick={onLogoContainerClick}
+              <Link
+                className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
+                to="/"
+                onClick={onLogoClick}
               >
                 <div className="relative tracking-[-0.01em] leading-[40px] font-semibold">
                   CoDesk
                 </div>
-              </div>
+              </Link>
               <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black font-body-tiny-400 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onCoursesContainerClick}
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
+                    to="/coursepage"
+                    onClick={onCoursesClick}
                   >
                     <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       Courses
                     </button>
-                  </div>
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onQuizzesContainerClick}
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-[inherit]"
+                    to="/quizpage"
+                    onClick={onQuizzesClick}
                   >
                     <div className="relative leading-[150%]">Quizzes</div>
-                  </div>
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onCompetetionsContainerClick}
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-[inherit]"
+                    to="/competetionpage"
+                    onClick={onCompetetionsClick}
                   >
                     <div
                       className="relative leading-[150%] cursor-pointer"
@@ -132,7 +124,7 @@ const AboutUsPage: FunctionComponent = () => {
                     >
                       Competetions
                     </div>
-                  </div>
+                  </Link>
                   <div
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onAboutUsContainerClick}
@@ -168,7 +160,7 @@ const AboutUsPage: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[4] text-left text-29xl text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[3] text-left text-29xl text-nero font-body-tiny-400 lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">{`Building the world’s largest & most loved coding school for kids & teens`}</div>
@@ -197,10 +189,10 @@ const AboutUsPage: FunctionComponent = () => {
           <img
             className="flex-1 relative max-w-full overflow-hidden h-[500px] object-cover lg:order-[1] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch"
             alt=""
-            src="/image-5@2x.png"
+            src="/image-54@2x.png"
           />
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[3] font-inter">
+        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[2] font-inter">
           <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5 relative">
               <div className="flex-1 relative tracking-[-0.01em] leading-[40px] font-semibold">
@@ -332,7 +324,7 @@ const AboutUsPage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[2] text-16xl font-segoe-ui">
+        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[1] text-16xl">
           <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px]">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <b className="flex-1 relative leading-[54px]">Our Core Belief</b>
@@ -463,13 +455,13 @@ const AboutUsPage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[1] text-16xl font-segoe-ui">
-          <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px]">
+        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] z-[0]">
+          <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] text-16xl">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <b className="flex-1 relative leading-[54px]">Our Roadmap</b>
             </div>
           </div>
-          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-13xl font-inter">
+          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] font-inter">
             <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
               <div className="flex-1 bg-nero flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                 <img
@@ -789,129 +781,152 @@ const AboutUsPage: FunctionComponent = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="self-stretch flex flex-col items-center justify-start z-[0] text-left">
-          <img
-            className="self-stretch relative max-w-full overflow-hidden h-[91px] shrink-0 object-cover"
-            alt=""
-            src="/subscribe-section-background2@2x.png"
-          />
-          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
-            <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
-              <div className="w-[255px] relative leading-[120%] font-semibold inline-block">
-                CoDesk
-              </div>
-              <div className="w-[562px] h-[189px] relative text-lg leading-[150%] text-nero hidden">
-                The CoDesk is on a mission to inspire school kids in Nepal to
-                fall in love with coding. Coding is proven to develop
-                creativity, logical thinking, and problem-solving skills in
-                kids. It's an essential skill for the future, with more than 60%
-                of all jobs in STEM-related fields requiring knowledge of code.
-                Kids who start learning to code at a young age are guaranteed to
-                become leaders, creators, and entrepreneurs of the future.
-              </div>
-              <div className="flex flex-row items-start justify-start gap-[20px]">
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialfacebookwithcircle.svg"
-                />
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialinstagramwithcircle.svg"
-                />
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialtwitterwithcircle.svg"
-                />
-              </div>
-            </div>
-            <div className="w-px relative box-border h-[157.9px] border-r-[1px] border-solid border-gray1-500 md:hidden" />
-            <div className="flex-1 flex flex-row items-start justify-between text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
-              <div className="w-[197.3px] relative h-[164.8px] sm:!mb-[40px]">
-                <div
-                  className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[135.7px] cursor-pointer"
-                  onClick={onAboutUsTextClick}
-                >
-                  About Us
+          <div className="self-stretch flex flex-col items-center justify-start text-left font-body-tiny-400">
+            <img
+              className="self-stretch relative max-w-full overflow-hidden h-[91px] shrink-0 object-cover"
+              alt=""
+              src="/subscribe-section-background2@2x.png"
+            />
+            <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
+              <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
+                <div className="self-stretch relative leading-[120%] font-semibold">
+                  CoDesk
                 </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[174.7px]">
-                  Company
+                <div className="self-stretch h-[189px] relative text-lg leading-[150%] text-nero inline-block">
+                  The CoDesk is on a mission to inspire school kids in Nepal to
+                  fall in love with coding. Coding is proven to develop
+                  creativity, logical thinking, and problem-solving skills in
+                  kids. It's an essential skill for the future, with more than
+                  60% of all jobs in STEM-related fields requiring knowledge of
+                  code. Kids who start learning to code at a young age are
+                  guaranteed to become leaders, creators, and entrepreneurs of
+                  the future.
                 </div>
-                <div
-                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[84.3px] cursor-pointer"
-                  onClick={onNewsTextClick}
-                >
-                  News
-                </div>
-                <div
-                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[115.1px] cursor-pointer"
-                  onClick={onCareersTextClick}
-                >
-                  Careers
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
-                  onClick={onHowWeWorkClick}
-                >
-                  How we work
+                <div className="self-stretch flex flex-row items-start justify-start gap-[20px]">
+                  <a
+                    className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                    href="https://www.linkedin.com/company/96404723"
+                    target="_blank"
+                  >
+                    <img
+                      className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                      alt=""
+                      src="/vector1.svg"
+                    />
+                  </a>
+                  <a
+                    className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                    href="https://www.linkedin.com/company/96404723"
+                    target="_blank"
+                  >
+                    <img
+                      className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                      alt=""
+                      src="/vector2.svg"
+                    />
+                  </a>
+                  <a
+                    className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                    href="https://www.linkedin.com/company/96404723"
+                    target="_blank"
+                  >
+                    <img
+                      className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                      alt=""
+                      src="/vector3.svg"
+                    />
+                  </a>
                 </div>
               </div>
-              <div className="w-[197.9px] relative h-[164.8px] sm:!mb-[40px]">
-                <div
-                  className="absolute top-[47.8px] left-[0.6px] leading-[150%] inline-block w-[109.6px] cursor-pointer"
-                  onClick={onScratchTextClick}
-                >
-                  Scratch
+              <div className="flex-1 flex flex-row items-start justify-start gap-[5px] text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
+                <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                  <div className="self-stretch relative text-xl leading-[150%] font-medium">
+                    Company
+                  </div>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch h-6 relative leading-[150%] text-[inherit] inline-block"
+                    to="/aboutuspage"
+                    onClick={onAboutUs1Click}
+                  >
+                    About Us
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/partnershippage"
+                    onClick={onPartnershipsClick}
+                  >
+                    Partnerships
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/applyteacher"
+                    onClick={onCareersClick}
+                  >
+                    Careers
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/whycodeskpage"
+                    onClick={onWhyCoDeskClick}
+                  >
+                    Why CoDesk?
+                  </Link>
                 </div>
-                <div className="absolute top-[0px] left-[0.6px] text-xl leading-[150%] font-medium inline-block w-[131.6px]">
-                  Best Courses
+                <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                  <div className="self-stretch relative text-xl leading-[150%] font-medium">
+                    Best Courses
+                  </div>
+                  <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
+                    Scratch
+                  </a>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/commingsoonpage"
+                  >
+                    Web Development
+                  </Link>
+                  <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
+                    Game Development
+                  </a>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/curriculumbycoursepage"
+                    onClick={onPythonClick}
+                  >
+                    Python
+                  </Link>
                 </div>
-                <div
-                  className="absolute top-[78.8px] left-[0.6px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
-                  onClick={onWebDevelopmentTextClick}
-                >
-                  Web Development
-                </div>
-                <div
-                  className="absolute top-[109.9px] left-[0px] leading-[150%] inline-block w-[165px] cursor-pointer"
-                  onClick={onGameDevelopmentTextClick}
-                >
-                  Game Development
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0.6px] leading-[150%] inline-block w-[164.4px] cursor-pointer"
-                  onClick={onPythonTextClick}
-                >
-                  Python
-                </div>
-              </div>
-              <div className="w-[197.3px] relative h-[159.8px]">
-                <div className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[172.9px]">
-                  Worksheet
-                </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[76.7px]">
-                  More
-                </div>
-                <div
-                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[135.4px] cursor-pointer"
-                  onClick={onBlogsTextClick}
-                >
-                  Blogs
-                </div>
-                <div
-                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[50.6px] cursor-pointer"
-                  onClick={onQuizTextClick}
-                >
-                  Quiz
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0px] font-roboto inline-block w-[197.3px] cursor-pointer"
-                  onClick={onCompetetionTextClick}
-                >
-                  Competetion
+                <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:flex-[unset] sm:self-stretch">
+                  <div className="self-stretch relative text-xl leading-[150%] font-medium">
+                    More
+                  </div>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/worksheetpage"
+                  >
+                    Worksheet
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/blogpage"
+                    onClick={onBlogsClick}
+                  >
+                    Blogs
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/quizpage"
+                    onClick={onQuizClick}
+                  >
+                    Quiz
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                    to="/competetionpage"
+                    onClick={onCompetetionClick}
+                  >
+                    Competetion
+                  </Link>
                 </div>
               </div>
             </div>

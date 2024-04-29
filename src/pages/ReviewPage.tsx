@@ -1,5 +1,5 @@
 import { FunctionComponent, useState, useCallback } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import DrawerMenus from "../components/DrawerMenus";
 import PortalDrawer from "../components/PortalDrawer";
 
@@ -7,19 +7,19 @@ const ReviewPage: FunctionComponent = () => {
   const navigate = useNavigate();
   const [isDrawerMenusOpen, setDrawerMenusOpen] = useState(false);
 
-  const onLogoContainerClick = useCallback(() => {
+  const onLogoClick = useCallback(() => {
     navigate("/");
   }, [navigate]);
 
-  const onCoursesContainerClick = useCallback(() => {
+  const onCoursesClick = useCallback(() => {
     navigate("/coursepage");
   }, [navigate]);
 
-  const onQuizzesContainerClick = useCallback(() => {
+  const onQuizzesClick = useCallback(() => {
     navigate("/quizpage");
   }, [navigate]);
 
-  const onCompetetionsContainerClick = useCallback(() => {
+  const onCompetetionsClick = useCallback(() => {
     navigate("/competetionpage");
   }, [navigate]);
 
@@ -27,7 +27,7 @@ const ReviewPage: FunctionComponent = () => {
     navigate("/coursepage");
   }, [navigate]);
 
-  const onAboutUsContainerClick = useCallback(() => {
+  const onAboutUsClick = useCallback(() => {
     navigate("/aboutuspage");
   }, [navigate]);
 
@@ -48,47 +48,35 @@ const ReviewPage: FunctionComponent = () => {
     }
   }, []);
 
-  const onAboutUsTextClick = useCallback(() => {
+  const onAboutUs2Click = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onNewsTextClick = useCallback(() => {
+  const onPartnershipsClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onCareersTextClick = useCallback(() => {
+  const onCareersClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onHowWeWorkClick = useCallback(() => {
+  const onWhyCoDeskClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onScratchTextClick = useCallback(() => {
+  const onPythonClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onWebDevelopmentTextClick = useCallback(() => {
+  const onBlogsClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onGameDevelopmentTextClick = useCallback(() => {
+  const onQuizClick = useCallback(() => {
     //TODO: link
   }, []);
 
-  const onPythonTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onBlogsTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onQuizTextClick = useCallback(() => {
-    //TODO: link
-  }, []);
-
-  const onCompetetionTextClick = useCallback(() => {
+  const onCompetetionClick = useCallback(() => {
     //TODO: link
   }, []);
 
@@ -98,33 +86,37 @@ const ReviewPage: FunctionComponent = () => {
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
-              <div
-                className="flex flex-row items-center justify-center p-2.5 cursor-pointer"
-                onClick={onLogoContainerClick}
+              <Link
+                className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
+                to="/"
+                onClick={onLogoClick}
               >
                 <div className="relative tracking-[-0.01em] leading-[40px] font-semibold">
                   CoDeskLab
                 </div>
-              </div>
+              </Link>
               <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black font-body-tiny-400 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onCoursesContainerClick}
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
+                    to="/coursepage"
+                    onClick={onCoursesClick}
                   >
                     <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       Courses
                     </button>
-                  </div>
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onQuizzesContainerClick}
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-[inherit]"
+                    to="/quizpage"
+                    onClick={onQuizzesClick}
                   >
                     <div className="relative leading-[150%]">Quizzes</div>
-                  </div>
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onCompetetionsContainerClick}
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-[inherit]"
+                    to="/competetionpage"
+                    onClick={onCompetetionsClick}
                   >
                     <div
                       className="relative leading-[150%] cursor-pointer"
@@ -132,15 +124,16 @@ const ReviewPage: FunctionComponent = () => {
                     >
                       Competetions
                     </div>
-                  </div>
-                  <div
-                    className="flex flex-row items-center justify-end cursor-pointer"
-                    onClick={onAboutUsContainerClick}
+                  </Link>
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
+                    to="/aboutuspage"
+                    onClick={onAboutUsClick}
                   >
                     <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
                       About Us
                     </button>
-                  </div>
+                  </Link>
                 </div>
                 <div
                   className="flex flex-row items-center justify-center cursor-pointer"
@@ -248,9 +241,9 @@ const ReviewPage: FunctionComponent = () => {
             alt=""
             src="/subscribe-section-background3@2x.png"
           />
-          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:pr-[05px] sm:pl-[5px] sm:box-border">
+          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
             <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
-              <div className="w-[255px] relative leading-[120%] font-semibold inline-block">
+              <div className="self-stretch relative leading-[120%] font-semibold">
                 CoDesk
               </div>
               <div className="self-stretch h-[189px] relative text-lg leading-[150%] text-nero inline-block">
@@ -262,109 +255,131 @@ const ReviewPage: FunctionComponent = () => {
                 Kids who start learning to code at a young age are guaranteed to
                 become leaders, creators, and entrepreneurs of the future.
               </div>
-              <div className="flex flex-row items-start justify-start gap-[20px]">
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialfacebookwithcircle.svg"
-                />
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialinstagramwithcircle.svg"
-                />
-                <img
-                  className="h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  alt=""
-                  src="/entyposocialtwitterwithcircle.svg"
-                />
+              <div className="self-stretch flex flex-row items-start justify-start gap-[20px]">
+                <a
+                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                  href="https://www.linkedin.com/company/96404723"
+                  target="_blank"
+                >
+                  <img
+                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector1.svg"
+                  />
+                </a>
+                <a
+                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                  href="https://www.linkedin.com/company/96404723"
+                  target="_blank"
+                >
+                  <img
+                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector2.svg"
+                  />
+                </a>
+                <a
+                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
+                  href="https://www.linkedin.com/company/96404723"
+                  target="_blank"
+                >
+                  <img
+                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
+                    alt=""
+                    src="/vector3.svg"
+                  />
+                </a>
               </div>
             </div>
-            <div className="w-px relative box-border h-[157.9px] border-r-[1px] border-solid border-gray1-500 md:hidden" />
-            <div className="flex-1 flex flex-row items-start justify-between text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
-              <div className="w-[197.3px] relative h-[164.8px] sm:!mb-[40px]">
-                <div
-                  className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[135.7px] cursor-pointer"
-                  onClick={onAboutUsTextClick}
-                >
-                  About Us
-                </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[174.7px]">
+            <div className="flex-1 flex flex-row items-start justify-start gap-[5px] text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch relative text-xl leading-[150%] font-medium">
                   Company
                 </div>
-                <div
-                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[84.3px] cursor-pointer"
-                  onClick={onNewsTextClick}
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch h-6 relative leading-[150%] text-[inherit] inline-block"
+                  to="/aboutuspage"
+                  onClick={onAboutUs2Click}
                 >
-                  News
-                </div>
-                <div
-                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[115.1px] cursor-pointer"
-                  onClick={onCareersTextClick}
+                  About Us
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/partnershippage"
+                  onClick={onPartnershipsClick}
+                >
+                  Partnerships
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/applyteacher"
+                  onClick={onCareersClick}
                 >
                   Careers
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
-                  onClick={onHowWeWorkClick}
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/whycodeskpage"
+                  onClick={onWhyCoDeskClick}
                 >
-                  How we work
-                </div>
+                  Why CoDesk?
+                </Link>
               </div>
-              <div className="w-[197.9px] relative h-[164.8px] sm:!mb-[40px]">
-                <div
-                  className="absolute top-[47.8px] left-[0.6px] leading-[150%] inline-block w-[109.6px] cursor-pointer"
-                  onClick={onScratchTextClick}
-                >
-                  Scratch
-                </div>
-                <div className="absolute top-[0px] left-[0.6px] text-xl leading-[150%] font-medium inline-block w-[131.6px]">
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch relative text-xl leading-[150%] font-medium">
                   Best Courses
                 </div>
-                <div
-                  className="absolute top-[78.8px] left-[0.6px] leading-[150%] inline-block w-[197.3px] cursor-pointer"
-                  onClick={onWebDevelopmentTextClick}
+                <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
+                  Scratch
+                </a>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/commingsoonpage"
                 >
                   Web Development
-                </div>
-                <div
-                  className="absolute top-[109.9px] left-[0px] leading-[150%] inline-block w-[165px] cursor-pointer"
-                  onClick={onGameDevelopmentTextClick}
-                >
+                </Link>
+                <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
                   Game Development
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0.6px] leading-[150%] inline-block w-[164.4px] cursor-pointer"
-                  onClick={onPythonTextClick}
+                </a>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/curriculumbycoursepage"
+                  onClick={onPythonClick}
                 >
                   Python
-                </div>
+                </Link>
               </div>
-              <div className="w-[197.3px] relative h-[159.8px]">
-                <div className="absolute top-[47.8px] left-[0px] leading-[150%] inline-block w-[172.9px]">
-                  Worksheet
-                </div>
-                <div className="absolute top-[0px] left-[0px] text-xl leading-[150%] font-medium inline-block w-[76.7px]">
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch relative text-xl leading-[150%] font-medium">
                   More
                 </div>
-                <div
-                  className="absolute top-[78.8px] left-[0px] leading-[150%] inline-block w-[135.4px] cursor-pointer"
-                  onClick={onBlogsTextClick}
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/worksheetpage"
+                >
+                  Worksheet
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/blogpage"
+                  onClick={onBlogsClick}
                 >
                   Blogs
-                </div>
-                <div
-                  className="absolute top-[109.8px] left-[0px] leading-[150%] inline-block w-[50.6px] cursor-pointer"
-                  onClick={onQuizTextClick}
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/quizpage"
+                  onClick={onQuizClick}
                 >
                   Quiz
-                </div>
-                <div
-                  className="absolute top-[140.8px] left-[0px] font-roboto inline-block w-[197.3px] cursor-pointer"
-                  onClick={onCompetetionTextClick}
+                </Link>
+                <Link
+                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
+                  to="/competetionpage"
+                  onClick={onCompetetionClick}
                 >
                   Competetion
-                </div>
+                </Link>
               </div>
             </div>
           </div>

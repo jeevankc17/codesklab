@@ -62,36 +62,36 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
   }, [navigate]);
 
   const onMenuItem6Click = useCallback(() => {
-    navigate("/whycodeskpage");
-  }, [navigate]);
-
-  const onMenuItem7Click = useCallback(() => {
-    navigate("/applyteacher");
-  }, [navigate]);
-
-  const onMenuItem8Click = useCallback(() => {
     navigate("/worksheetpage");
   }, [navigate]);
 
-  const onMenuItem9Click = useCallback(() => {
+  const onMenuItem7Click = useCallback(() => {
     navigate("/blogpage");
   }, [navigate]);
 
-  const onMenuItem10Click = useCallback(() => {
+  const onMenuItem8Click = useCallback(() => {
     navigate("/projectpage");
   }, [navigate]);
 
-  const onMenuItemContainerClick = useCallback(() => {
+  const onMenuItem9Click = useCallback(() => {
+    window.open("/whycodeskpage");
+  }, []);
+
+  const onMenuItem10Click = useCallback(() => {
+    window.open("/applyteacher");
+  }, []);
+
+  const onMenuItem11Click = useCallback(() => {
     //TODO: login
     onClose && onClose();
   }, []);
 
-  const onMenuItemContainer1Click = useCallback(() => {
+  const onMenuItem12Click = useCallback(() => {
     //TODO: register
     onClose && onClose();
   }, []);
 
-  const onMenuItemContainer2Click = useCallback(() => {
+  const onMenuItem13Click = useCallback(() => {
     //TODO: instructor login
     onClose && onClose();
   }, []);
@@ -193,35 +193,9 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
               Competetion
             </div>
           </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
-            to="/competetionpage"
-            onClick={onMenuItem6Click}
-          >
-            <img
-              className="w-6 relative h-6 overflow-hidden shrink-0"
-              alt=""
-              src="/question2.svg"
-            />
-            <div className="relative leading-[24px] font-medium">
-              Why CoDesk?
-            </div>
-          </Link>
-          <Link
-            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
-            to="/competetionpage"
-            onClick={onMenuItem7Click}
-          >
-            <img
-              className="w-6 relative h-6 overflow-hidden shrink-0"
-              alt=""
-              src="/chalkboardteacher2.svg"
-            />
-            <div className="relative leading-[24px] font-medium">Careers</div>
-          </Link>
           <a
             className="[text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] cursor-pointer text-[inherit]"
-            onClick={onMenuItem8Click}
+            onClick={onMenuItem6Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -234,7 +208,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
           </a>
           <a
             className="[text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] cursor-pointer text-[inherit]"
-            onClick={onMenuItem9Click}
+            onClick={onMenuItem7Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -245,7 +219,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
           </a>
           <a
             className="[text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] cursor-pointer text-[inherit]"
-            onClick={onMenuItem10Click}
+            onClick={onMenuItem8Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -254,9 +228,36 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
             />
             <div className="relative leading-[24px] font-medium">Projects</div>
           </a>
-          <div
-            className="self-stretch flex flex-row items-center justify-start gap-[16px] cursor-pointer"
-            onClick={onMenuItemContainerClick}
+          <Link
+            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-center justify-start gap-[16px] text-[inherit]"
+            to="/whycodeskpage"
+            onClick={onMenuItem9Click}
+          >
+            <img
+              className="w-6 relative h-6 overflow-hidden shrink-0"
+              alt=""
+              src="/question2.svg"
+            />
+            <div className="relative leading-[24px] font-medium">
+              Why CoDesk?
+            </div>
+          </Link>
+          <Link
+            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-center justify-start gap-[16px] text-[inherit]"
+            to="/applyteacher"
+            onClick={onMenuItem10Click}
+          >
+            <img
+              className="w-6 relative h-6 overflow-hidden shrink-0"
+              alt=""
+              src="/chalkboardteacher2.svg"
+            />
+            <div className="relative leading-[24px] font-medium">Careers</div>
+          </Link>
+          <Link
+            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-center justify-start gap-[16px] text-[inherit]"
+            to="/commingsoonpage"
+            onClick={onMenuItem11Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -264,10 +265,11 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
               src="/lockkeyopen.svg"
             />
             <div className="relative leading-[24px] font-medium">Login</div>
-          </div>
-          <div
-            className="self-stretch flex flex-row items-start justify-start gap-[16px] cursor-pointer"
-            onClick={onMenuItemContainer1Click}
+          </Link>
+          <Link
+            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
+            to="/commingsoonpage"
+            onClick={onMenuItem12Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -275,10 +277,11 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
               src="/cashregister.svg"
             />
             <div className="relative leading-[24px] font-medium">Register</div>
-          </div>
-          <div
-            className="self-stretch flex flex-row items-start justify-start gap-[16px] cursor-pointer"
-            onClick={onMenuItemContainer2Click}
+          </Link>
+          <Link
+            className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
+            to="/commingsoonpage"
+            onClick={onMenuItem13Click}
           >
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
@@ -288,7 +291,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
             <div className="relative leading-[24px] font-medium">
               Instructor Login
             </div>
-          </div>
+          </Link>
         </div>
       </div>
       <div className="flex flex-row items-start justify-start text-sm">

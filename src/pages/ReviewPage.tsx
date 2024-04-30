@@ -185,7 +185,7 @@ const ReviewPage: FunctionComponent = () => {
           <img
             className="flex-1 relative max-w-full overflow-hidden h-[500px] object-cover lg:order-[1] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch"
             alt=""
-            src="/image-5@2x.png"
+            src="/image-55@2x.png"
           />
         </div>
         <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] relative z-[1] text-center">

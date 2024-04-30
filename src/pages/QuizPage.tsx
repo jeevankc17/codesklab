@@ -230,7 +230,7 @@ const QuizPage: FunctionComponent = () => {
                       <img
                         className="w-6 relative h-6"
                         alt=""
-                        src="/vector1.svg"
+                        src="/vector11.svg"
                       />
                       <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                         <div className="flex-1 relative leading-[150%]">

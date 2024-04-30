@@ -423,7 +423,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -431,7 +435,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -439,7 +447,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -447,7 +459,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers
@@ -598,7 +614,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -606,7 +626,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -614,7 +638,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -622,7 +650,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers
@@ -774,7 +806,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -782,7 +818,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -790,7 +830,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -798,7 +842,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers
@@ -950,7 +998,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -958,7 +1010,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -966,7 +1022,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -974,7 +1034,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers
@@ -1131,7 +1195,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -1139,7 +1207,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -1147,7 +1219,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -1155,7 +1231,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers
@@ -1309,7 +1389,11 @@ const CoursePage: FunctionComponent = () => {
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[5px]">
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scratch Programming Certificate
@@ -1317,7 +1401,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Lifetime access to course content
@@ -1325,7 +1413,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Exclusive access to competitions
@@ -1333,7 +1425,11 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
                 <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                  <img className="w-6 relative h-6" alt="" src="/vector1.svg" />
+                  <img
+                    className="w-6 relative h-6"
+                    alt=""
+                    src="/vector11.svg"
+                  />
                   <div className="flex-1 bg-nero flex flex-row items-center justify-center">
                     <div className="flex-1 relative leading-[150%]">
                       Scholarships for top performers

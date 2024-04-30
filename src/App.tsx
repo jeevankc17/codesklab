@@ -6,13 +6,13 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomePage from "./pages/HomePage";
+import BlogPage from "./pages/BlogPage";
 import CoursePage from "./pages/CoursePage";
 import CompetetionPage from "./pages/CompetetionPage";
 import CurriculumByCoursePage from "./pages/CurriculumByCoursePage";
 import AboutUsPage from "./pages/AboutUsPage";
 import ReviewPage from "./pages/ReviewPage";
 import PartnershipPage from "./pages/PartnershipPage";
-import BlogPage from "./pages/BlogPage";
 import WhyCodeskPage from "./pages/WhyCodeskPage";
 import QuizPage from "./pages/QuizPage";
 import WorksheetPage from "./pages/WorksheetPage";
@@ -41,6 +41,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/blogpage":
+        title = "";
+        metaDescription = "";
+        break;
       case "/coursepage":
         title = "";
         metaDescription = "";
@@ -62,10 +66,6 @@ function App() {
         metaDescription = "";
         break;
       case "/partnershippage":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/blogpage":
         title = "";
         metaDescription = "";
         break;
@@ -116,6 +116,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
+      <Route path="/blogpage" element={<BlogPage />} />
       <Route path="/coursepage" element={<CoursePage />} />
       <Route path="/competetionpage" element={<CompetetionPage />} />
       <Route
@@ -125,7 +126,6 @@ function App() {
       <Route path="/aboutuspage" element={<AboutUsPage />} />
       <Route path="/reviewpage" element={<ReviewPage />} />
       <Route path="/partnershippage" element={<PartnershipPage />} />
-      <Route path="/blogpage" element={<BlogPage />} />
       <Route path="/whycodeskpage" element={<WhyCodeskPage />} />
       <Route path="/quizpage" element={<QuizPage />} />
       <Route path="/worksheetpage" element={<WorksheetPage />} />

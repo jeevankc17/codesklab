@@ -175,7 +175,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
             <img
               className="w-6 relative h-[19.5px]"
               alt=""
-              src="/vector2.svg"
+              src="/vector21.svg"
             />
             <div className="relative leading-[24px] font-medium">Quizzes</div>
           </a>

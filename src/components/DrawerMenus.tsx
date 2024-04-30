@@ -82,19 +82,16 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
   }, []);
 
   const onMenuItem11Click = useCallback(() => {
-    //TODO: login
-    onClose && onClose();
+    window.open("/commingsoonpage");
   }, []);
 
   const onMenuItem12Click = useCallback(() => {
-    //TODO: register
-    onClose && onClose();
-  }, []);
+    navigate("/commingsoonpage");
+  }, [navigate]);
 
   const onMenuItem13Click = useCallback(() => {
-    //TODO: instructor login
-    onClose && onClose();
-  }, []);
+    navigate("/commingsoonpage");
+  }, [navigate]);
 
   return (
     <div
@@ -112,13 +109,13 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
           </div>
           <div className="flex flex-col items-start justify-start">
             <div className="relative leading-[18px]">Hello</div>
-            <b className="relative text-xl leading-[30px] text-black">
+            <b className="relative text-xl leading-[30px] text-black1">
               CoDeskLab
             </b>
           </div>
         </div>
         <div className="self-stretch relative box-border h-px border-t-[1px] border-solid border-aliceblue" />
-        <div className="flex flex-col items-start justify-start gap-[28px] text-base text-black1">
+        <div className="flex flex-col items-start justify-start gap-[28px] text-base text-black">
           <Link
             className="cursor-pointer [text-decoration:none] self-stretch flex flex-row items-start justify-start gap-[16px] text-[inherit]"
             to="/"

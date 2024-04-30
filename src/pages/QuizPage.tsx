@@ -82,9 +82,9 @@ const QuizPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-left text-29xl text-black font-body-tiny-400 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-black1 font-body-xl-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-body-tiny-400 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-body-xl-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -102,7 +102,7 @@ const QuizPage: FunctionComponent = () => {
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -112,7 +112,7 @@ const QuizPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <Link
-                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-black"
+                    className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end text-black1"
                     to="/competetionpage"
                     onClick={onCompetetionsClick}
                   >
@@ -128,7 +128,7 @@ const QuizPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUsClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-tiny-400 text-black text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -159,7 +159,7 @@ const QuizPage: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[2] text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[2] text-left text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">
@@ -176,7 +176,7 @@ const QuizPage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-tiny-400 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
                 View a Quizzes
               </div>
             </button>
@@ -187,7 +187,7 @@ const QuizPage: FunctionComponent = () => {
             src="/image-59@2x.png"
           />
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[30px] relative z-[1] text-center text-17xl">
+        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[30px] relative z-[1] text-17xl">
           <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <div className="flex-1 relative leading-[120%] font-semibold">
@@ -258,149 +258,149 @@ const QuizPage: FunctionComponent = () => {
         </div>
         <div className="self-stretch flex flex-col items-center justify-start z-[0] text-13xl">
           <img
-            className="self-stretch relative max-w-full overflow-hidden h-[91px] shrink-0 object-cover"
+            className="self-stretch relative max-w-full overflow-hidden h-[108px] shrink-0 object-cover"
             alt=""
-            src="/subscribe-section-background5@2x.png"
+            src="/subscribe-section-background4@2x.png"
           />
-          <div className="self-stretch bg-footer-header flex flex-row flex-wrap items-center justify-center py-[33px] px-[84px] gap-[0px_44px] lg:p-10 lg:box-border md:flex-col md:pt-10 md:px-6 md:pb-[30px] md:box-border sm:py-[30px] sm:px-6 sm:box-border">
-            <div className="flex-1 flex flex-col items-start justify-start gap-[14px] !mb-[40px] md:flex-[unset] md:self-stretch">
-              <div className="self-stretch relative leading-[120%] font-semibold">
-                CoDesk
+          <div className="self-stretch bg-footer-header flex flex-col items-center justify-start py-2.5 px-5 gap-[44px] lg:flex-col">
+            <div className="self-stretch flex flex-col items-start justify-start gap-[14px] !mb-[40px]">
+              <div className="self-stretch flex flex-row items-start justify-start">
+                <div className="h-[38px] flex-1 relative leading-[120%] font-semibold inline-block">
+                  CoDesk
+                </div>
               </div>
-              <div className="self-stretch h-[189px] relative text-lg leading-[150%] text-nero inline-block">
-                The CoDesk is on a mission to inspire school kids in Nepal to
-                fall in love with coding. Coding is proven to develop
-                creativity, logical thinking, and problem-solving skills in
-                kids. It's an essential skill for the future, with more than 60%
-                of all jobs in STEM-related fields requiring knowledge of code.
-                Kids who start learning to code at a young age are guaranteed to
-                become leaders, creators, and entrepreneurs of the future.
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start gap-[20px]">
-                <a
-                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  href="https://www.linkedin.com/company/96404723"
-                  target="_blank"
-                >
-                  <img
-                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
-                    alt=""
-                    src="/vector1.svg"
-                  />
-                </a>
-                <a
-                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  href="https://www.linkedin.com/company/96404723"
-                  target="_blank"
-                >
-                  <img
-                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
-                    alt=""
-                    src="/vector2.svg"
-                  />
-                </a>
-                <a
-                  className="[text-decoration:none] h-[30px] w-[30px] relative overflow-hidden shrink-0"
-                  href="https://www.linkedin.com/company/96404723"
-                  target="_blank"
-                >
-                  <img
-                    className="absolute h-[96%] w-[96%] top-[2%] right-[2%] bottom-[2%] left-[2%] max-w-full overflow-hidden max-h-full"
-                    alt=""
-                    src="/vector3.svg"
-                  />
-                </a>
+              <div className="self-stretch flex flex-row items-start justify-start text-lg text-nero">
+                <div className="h-[81px] flex-1 relative leading-[150%] inline-block md:text-left sm:text-left">
+                  The CoDesk is on a mission to inspire school kids in Nepal to
+                  fall in love with coding. Coding is proven to develop
+                  creativity, logical thinking, and problem-solving skills in
+                  kids. It's an essential skill for the future, with more than
+                  60% of all jobs in STEM-related fields requiring knowledge of
+                  code. Kids who start learning to code at a young age are
+                  guaranteed to become leaders, creators, and entrepreneurs of
+                  the future.
+                </div>
               </div>
             </div>
-            <div className="flex-1 flex flex-row items-start justify-start gap-[5px] text-base text-nero md:flex-row md:flex-wrap md:flex-[unset] md:self-stretch sm:flex-col">
-              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
-                <div className="self-stretch relative text-xl leading-[150%] font-medium">
-                  Company
+            <div className="self-stretch flex flex-row items-center justify-center gap-[5px] text-right text-base text-nero lg:flex-row md:flex-col sm:flex-col">
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] md:flex-[unset] md:self-stretch sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch flex flex-row items-start justify-start text-xl">
+                  <div className="flex-1 relative leading-[150%] font-semibold">
+                    Company
+                  </div>
                 </div>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch h-6 relative leading-[150%] text-[inherit] inline-block"
-                  to="/aboutuspage"
-                  onClick={onAboutUs2Click}
-                >
-                  About Us
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/partnershippage"
-                  onClick={onPartnershipsClick}
-                >
-                  Partnerships
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/applyteacher"
-                  onClick={onCareersClick}
-                >
-                  Careers
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/whycodeskpage"
-                  onClick={onWhyCoDeskClick}
-                >
-                  Why CoDesk?
-                </Link>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] h-6 flex-1 relative leading-[150%] text-[inherit] inline-block"
+                    to="/aboutuspage"
+                    onClick={onAboutUs2Click}
+                  >
+                    About Us
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/partnershippage"
+                    onClick={onPartnershipsClick}
+                  >
+                    Partnerships
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/applyteacher"
+                    onClick={onCareersClick}
+                  >
+                    Careers
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/whycodeskpage"
+                    onClick={onWhyCoDeskClick}
+                  >
+                    Why CoDesk?
+                  </Link>
+                </div>
               </div>
-              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
-                <div className="self-stretch relative text-xl leading-[150%] font-medium">
-                  Best Courses
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] text-center md:flex-[unset] md:self-stretch sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch flex flex-row items-start justify-start text-xl">
+                  <div className="flex-1 relative leading-[150%] font-semibold">
+                    Best Courses
+                  </div>
                 </div>
-                <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
-                  Scratch
-                </a>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/commingsoonpage"
-                >
-                  Web Development
-                </Link>
-                <a className="[text-decoration:none] self-stretch relative leading-[150%] text-[inherit]">
-                  Game Development
-                </a>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/curriculumbycoursepage"
-                  onClick={onPythonClick}
-                >
-                  Python
-                </Link>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <a className="[text-decoration:none] flex-1 relative leading-[150%] text-[inherit]">
+                    Scratch
+                  </a>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/commingsoonpage"
+                  >
+                    Web Development
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <a className="[text-decoration:none] flex-1 relative leading-[150%] text-[inherit]">
+                    Game Development
+                  </a>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/curriculumbycoursepage"
+                    onClick={onPythonClick}
+                  >
+                    Python
+                  </Link>
+                </div>
               </div>
-              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] sm:flex-[unset] sm:self-stretch">
-                <div className="self-stretch relative text-xl leading-[150%] font-medium">
-                  More
+              <div className="flex-1 flex flex-col items-start justify-start gap-[10px] text-left md:flex-[unset] md:self-stretch sm:flex-[unset] sm:self-stretch">
+                <div className="self-stretch flex flex-row items-start justify-start text-xl">
+                  <div className="flex-1 relative leading-[150%] font-semibold">
+                    More
+                  </div>
                 </div>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/worksheetpage"
-                >
-                  Worksheet
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/blogpage"
-                  onClick={onBlogsClick}
-                >
-                  Blogs
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/quizpage"
-                  onClick={onQuizClick}
-                >
-                  Quiz
-                </Link>
-                <Link
-                  className="cursor-pointer [text-decoration:none] self-stretch relative leading-[150%] text-[inherit]"
-                  to="/competetionpage"
-                  onClick={onCompetetionClick}
-                >
-                  Competetion
-                </Link>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/worksheetpage"
+                  >
+                    Worksheet
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/blogpage"
+                    onClick={onBlogsClick}
+                  >
+                    Blogs
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/quizpage"
+                    onClick={onQuizClick}
+                  >
+                    Quiz
+                  </Link>
+                </div>
+                <div className="self-stretch flex flex-row items-start justify-start">
+                  <Link
+                    className="cursor-pointer [text-decoration:none] flex-1 relative leading-[150%] text-[inherit]"
+                    to="/competetionpage"
+                    onClick={onCompetetionClick}
+                  >
+                    Competetion
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

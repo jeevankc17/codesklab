@@ -83,9 +83,9 @@ const QuizByCourseIDPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-left text-29xl text-nero font-body-xl-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-left text-29xl text-nero font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-body-xl-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-body-xl-500 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -103,7 +103,7 @@ const QuizByCourseIDPage: FunctionComponent = () => {
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -129,7 +129,7 @@ const QuizByCourseIDPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -177,7 +177,7 @@ const QuizByCourseIDPage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
                 View a Quizzes
               </div>
             </button>

@@ -89,7 +89,7 @@ const ApplyTeacher: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black1 font-body-xl-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[9]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
@@ -102,14 +102,14 @@ const ApplyTeacher: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-600 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -137,7 +137,7 @@ const ApplyTeacher: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -190,7 +190,7 @@ const ApplyTeacher: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
                 Read Guidelines
               </div>
             </button>
@@ -201,7 +201,7 @@ const ApplyTeacher: FunctionComponent = () => {
             src="/image-511@2x.png"
           />
         </div>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-body-xl-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Become a teacher in CoDesk doesn’t mean you will end up your
@@ -727,7 +727,7 @@ const ApplyTeacher: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
                 Become a Teacher
               </div>
             </button>
@@ -736,7 +736,7 @@ const ApplyTeacher: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent1Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
                 Become A Teacher
               </div>
             </button>

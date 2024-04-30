@@ -94,7 +94,7 @@ const PartnershipPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-black1 font-body-xl-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[4]">
           <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
@@ -107,14 +107,14 @@ const PartnershipPage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-600 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -142,7 +142,7 @@ const PartnershipPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -191,7 +191,7 @@ const PartnershipPage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
                 Contact Us
               </div>
             </button>
@@ -427,33 +427,33 @@ const PartnershipPage: FunctionComponent = () => {
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5">
             <form className="m-0 w-[550px] shadow-[0px_0px_24px_rgba(0,_0,_0,_0.03)] rounded-xl bg-nero box-border flex flex-col items-start justify-start py-7 px-[30px] gap-[17px] border-[1px] border-solid border-whitesmoke md:w-[350px]">
               <div className="self-stretch flex flex-col items-start justify-start">
-                <div className="self-stretch relative text-lg leading-[150%] font-semibold font-body-xl-600 text-slategray text-left">
+                <div className="self-stretch relative text-lg leading-[150%] font-semibold font-body-xl-500 text-slategray text-left">
                   Fill in your details to join the party!
                 </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <input
-                  className="[outline:none] font-body-xl-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Your name"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-body-xl-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Email address"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-body-xl-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Phone Number"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-body-xl-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="School Name"
                   type="text"
                 />
                 <textarea
-                  className="bg-[transparent] font-body-xl-600 text-base [outline:none] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="bg-[transparent] font-body-xl-500 text-base [outline:none] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Leave Message"
                 />
               </div>
@@ -461,7 +461,7 @@ const PartnershipPage: FunctionComponent = () => {
                 className="cursor-pointer py-[9px] px-5 bg-tomato rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
                 onClick={openImagePopup}
               >
-                <div className="relative text-lg leading-[150%] font-semibold font-body-xl-600 text-nero text-center inline-block max-h-[58px]">
+                <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
                   Subimt
                 </div>
               </button>

@@ -89,9 +89,9 @@ const ApplyTeacher: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero1 flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-13xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[9]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero1 flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -102,14 +102,14 @@ const ApplyTeacher: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
-                <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+                <div className="bg-nero1 flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -137,7 +137,7 @@ const ApplyTeacher: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -168,7 +168,7 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[8] text-left text-29xl text-nero lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[8] text-left text-29xl text-nero1 lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">
@@ -186,11 +186,11 @@ const ApplyTeacher: FunctionComponent = () => {
               </div>
             </div>
             <button
-              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero1 text-center inline-block max-h-[58px]">
                 Read Guidelines
               </div>
             </button>
@@ -201,7 +201,7 @@ const ApplyTeacher: FunctionComponent = () => {
             src="/image-511@2x.png"
           />
         </div>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero1 flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Become a teacher in CoDesk doesn’t mean you will end up your
@@ -209,7 +209,7 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center py-[25px] px-2.5 gap-[15px] text-left text-5xl lg:flex-row lg:flex-wrap">
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -228,7 +228,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -247,7 +247,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -266,7 +266,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -285,7 +285,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -304,7 +304,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
+            <div className="w-[200px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded bg-nero1 h-[200px] flex flex-col items-center justify-center p-[5px] box-border gap-[5px] sm:w-[300px]">
               <div className="self-stretch flex flex-row items-end justify-start gap-[14px]">
                 <img
                   className="w-[50px] relative h-[50px] overflow-hidden shrink-0"
@@ -325,10 +325,10 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center z-[6]">
-          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px]">
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
-              <div className="flex-1 bg-nero flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+        <div className="self-stretch bg-nero1 flex flex-col items-center justify-center z-[6]">
+          <div className="self-stretch bg-nero1 flex flex-col items-start justify-start p-[15px] gap-[40px]">
+            <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
+              <div className="flex-1 bg-nero1 flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                 <img
                   className="w-[380px] relative h-[325px] overflow-hidden shrink-0"
                   alt=""
@@ -338,18 +338,18 @@ const ApplyTeacher: FunctionComponent = () => {
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[70px] lg:flex-[unset] lg:self-stretch md:pl-2.5 md:pr-2.5 md:box-border md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5">
+                    <div className="self-stretch bg-nero1 flex flex-row items-center justify-center p-2.5">
                       <div className="flex-1 relative leading-[120%] font-semibold">
                         Make your passion pay
                       </div>
                     </div>
-                    <div className="w-[525px] bg-nero hidden flex-row items-center justify-center p-2.5 box-border text-base text-darkslategray">
+                    <div className="w-[525px] bg-nero1 hidden flex-row items-center justify-center p-2.5 box-border text-base text-darkslategray">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         1
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
+                  <div className="self-stretch bg-nero1 flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
                     <div className="flex-1 relative leading-[150%]">
                       If you are passionate about coding, teaching kids to code
                       is a great way to increase your while doing what you love.
@@ -358,17 +358,17 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[70px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:pl-2.5 md:pr-2.5 md:box-border md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5">
+                    <div className="self-stretch bg-nero1 flex flex-row items-center justify-center p-2.5">
                       <div className="flex-1 relative leading-[120%] font-semibold">
                         Make An Impact
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
+                  <div className="self-stretch bg-nero1 flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
                     <div className="flex-1 relative leading-[150%]">
                       Coding is the skill of the future. By teaching kids to
                       code, you will empower them to be successful and create a
@@ -377,7 +377,7 @@ const ApplyTeacher: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex-1 bg-nero flex flex-row items-center justify-center p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
+              <div className="flex-1 bg-nero1 flex flex-row items-center justify-center p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
                 <img
                   className="w-[380px] relative h-[348px] overflow-hidden shrink-0"
                   alt=""
@@ -385,8 +385,8 @@ const ApplyTeacher: FunctionComponent = () => {
                 />
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
-              <div className="flex-1 bg-nero flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+            <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
+              <div className="flex-1 bg-nero1 flex flex-row items-center justify-center p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                 <img
                   className="w-[380px] relative h-[350px] overflow-hidden shrink-0 object-cover"
                   alt=""
@@ -396,13 +396,13 @@ const ApplyTeacher: FunctionComponent = () => {
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[70px] lg:flex-[unset] lg:self-stretch md:pl-2.5 md:pr-2.5 md:box-border md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5">
+                    <div className="self-stretch bg-nero1 flex flex-row items-center justify-center p-2.5">
                       <div className="flex-1 relative leading-[120%] font-semibold">
                         Building Lifelong Relationships
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
+                  <div className="self-stretch bg-nero1 flex flex-row items-center justify-center py-2.5 px-[30px] text-lg">
                     <div className="flex-1 relative leading-[150%]">
                       As a teacher, you will touch the lives of hundreds of
                       children across the world and build lifelong relationships
@@ -414,14 +414,14 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[5] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero1 flex flex-col items-center justify-center p-5 gap-[20px] z-[5] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Unmatched earnings and growth
             </div>
           </div>
-          <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+          <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[88.2px] overflow-hidden shrink-0"
                 alt=""
@@ -440,7 +440,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[93.3px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -458,7 +458,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -479,7 +479,7 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[4] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero1 flex flex-col items-center justify-center p-5 gap-[20px] z-[4] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[120%] font-semibold">
               All the support you need
@@ -490,8 +490,8 @@ const ApplyTeacher: FunctionComponent = () => {
             alt=""
             src="/happytoshowlaptoppng@2x.png"
           />
-          <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+          <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[88.2px] overflow-hidden shrink-0"
                 alt=""
@@ -511,7 +511,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -530,7 +530,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[93.3px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -551,7 +551,7 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-center justify-center p-5 gap-[20px] relative z-[3] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero1 flex flex-col items-center justify-center p-5 gap-[20px] relative z-[3] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[120%] font-semibold">
               All the support you need
@@ -562,8 +562,8 @@ const ApplyTeacher: FunctionComponent = () => {
             alt=""
             src="/becomeateacherpng@2x.png"
           />
-          <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[30px] text-17xl">
-            <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
+          <div className="self-stretch bg-nero1 flex flex-col items-center justify-center gap-[30px] text-17xl">
+            <div className="self-stretch bg-nero1 flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
               <div className="self-stretch flex flex-row items-center justify-center p-2.5">
                 <div className="flex-1 relative leading-[120%] font-semibold">
                   5 steps to becoming a teacher
@@ -571,9 +571,9 @@ const ApplyTeacher: FunctionComponent = () => {
               </div>
               <div className="self-stretch h-[41px]" />
             </div>
-            <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-left text-lg-4 text-aqua-deep">
-              <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
-                <div className="flex-1 bg-nero flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+            <div className="self-stretch bg-nero1 flex flex-col items-start justify-start p-[15px] gap-[40px] text-left text-lg-4 text-aqua-deep">
+              <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
+                <div className="flex-1 bg-nero1 flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                   <img
                     className="w-48 relative h-48 overflow-hidden shrink-0 object-cover"
                     alt=""
@@ -601,7 +601,7 @@ const ApplyTeacher: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
+              <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
                 <div className="flex-1 flex flex-col items-start justify-center py-8 px-0 lg:order-[2] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                   <div className="self-stretch flex flex-col items-start justify-start">
                     <div className="self-stretch flex flex-col items-start justify-start">
@@ -623,7 +623,7 @@ const ApplyTeacher: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex-1 bg-nero flex flex-row items-center justify-start p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
+                <div className="flex-1 bg-nero1 flex flex-row items-center justify-start p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
                   <img
                     className="w-48 relative h-48 overflow-hidden shrink-0 object-cover"
                     alt=""
@@ -631,8 +631,8 @@ const ApplyTeacher: FunctionComponent = () => {
                   />
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
-                <div className="flex-1 bg-nero flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+              <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
+                <div className="flex-1 bg-nero1 flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                   <img
                     className="w-48 relative h-48 overflow-hidden shrink-0 object-cover"
                     alt=""
@@ -660,7 +660,7 @@ const ApplyTeacher: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
+              <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
                 <div className="flex-1 flex flex-col items-start justify-center py-8 px-0 lg:order-[2] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                   <div className="self-stretch flex flex-col items-start justify-start">
                     <div className="self-stretch flex flex-col items-start justify-start">
@@ -681,7 +681,7 @@ const ApplyTeacher: FunctionComponent = () => {
                     </div>
                   </div>
                 </div>
-                <div className="flex-1 bg-nero flex flex-row items-center justify-start p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
+                <div className="flex-1 bg-nero1 flex flex-row items-center justify-start p-2.5 lg:order-[1] lg:flex-[unset] lg:self-stretch md:order-[1] md:flex-[unset] md:self-stretch">
                   <img
                     className="w-[200px] relative h-40 overflow-hidden shrink-0 object-cover"
                     alt=""
@@ -689,8 +689,8 @@ const ApplyTeacher: FunctionComponent = () => {
                   />
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-row items-center justify-between lg:flex-col md:flex-col">
-                <div className="flex-1 bg-nero flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+              <div className="self-stretch bg-nero1 flex flex-row items-center justify-between lg:flex-col md:flex-col">
+                <div className="flex-1 bg-nero1 flex flex-row items-center justify-end p-2.5 lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
                   <img
                     className="w-48 relative h-[280px] overflow-hidden shrink-0 object-cover"
                     alt=""
@@ -721,22 +721,22 @@ const ApplyTeacher: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <section className="self-stretch bg-nero flex flex-row flex-wrap items-start justify-center p-[15px] gap-[15px]">
+          <section className="self-stretch bg-nero1 flex flex-row flex-wrap items-start justify-center p-[15px] gap-[15px]">
             <button
-              className="cursor-pointer py-[9px] px-5 bg-nero rounded box-border h-[41px] hidden flex-row items-center justify-center border-[1px] border-solid border-aqua-deep"
+              className="cursor-pointer py-[9px] px-5 bg-nero1 rounded box-border h-[41px] hidden flex-row items-center justify-center border-[1px] border-solid border-aqua-deep"
               autoFocus={true}
               onClick={onButtonswhiteContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
                 Become a Teacher
               </div>
             </button>
             <button
-              className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+              className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
               autoFocus={true}
               onClick={onButtonsorangeContent1Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero1 text-center inline-block max-h-[58px]">
                 Become A Teacher
               </div>
             </button>
@@ -746,14 +746,14 @@ const ApplyTeacher: FunctionComponent = () => {
             data-scroll-to="stepsContainer"
           />
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[2] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero1 flex flex-col items-start justify-start p-5 gap-[20px] z-[2] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Eligibility criteria for teachers
             </div>
           </div>
-          <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+          <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-5xl md:flex-row md:flex-wrap">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[88.2px] overflow-hidden shrink-0"
                 alt=""
@@ -772,7 +772,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[100px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -790,7 +790,7 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
+            <div className="shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded-13xl bg-nero1 overflow-hidden flex flex-col items-center justify-start py-10 px-5 gap-[28px]">
               <img
                 className="w-[93.3px] relative h-[100px] overflow-hidden shrink-0"
                 alt=""
@@ -811,20 +811,20 @@ const ApplyTeacher: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero flex flex-col items-start justify-start p-5 gap-[20px] z-[1] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] bg-nero1 flex flex-col items-start justify-start p-5 gap-[20px] z-[1] sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-start pt-0 px-[58px] pb-[0.5px]">
             <div className="w-full relative leading-[120%] font-semibold inline-block max-w-[1128px]">
               Why children should learn to code?
             </div>
           </div>
-          <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-base md:flex-row md:flex-wrap">
-            <div className="w-[350px] rounded-3xs bg-nero flex flex-col items-center justify-center p-5 box-border">
+          <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-base md:flex-row md:flex-wrap">
+            <div className="w-[350px] rounded-3xs bg-nero1 flex flex-col items-center justify-center p-5 box-border">
               <img
                 className="w-[250px] relative h-[250px] overflow-hidden shrink-0 object-cover"
                 alt=""
                 src="/reason1png6@2x.png"
               />
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center">
+              <div className="self-stretch bg-nero1 flex flex-col items-center justify-center">
                 <div className="self-stretch flex flex-col items-center justify-center py-4 px-0">
                   <div className="self-stretch relative leading-[120%] font-semibold">
                     Develop key skills
@@ -839,13 +839,13 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[350px] rounded-3xs bg-nero flex flex-col items-center justify-center p-5 box-border">
+            <div className="w-[350px] rounded-3xs bg-nero1 flex flex-col items-center justify-center p-5 box-border">
               <img
                 className="w-[250px] relative h-[250px] overflow-hidden shrink-0 object-cover"
                 alt=""
                 src="/reason1png7@2x.png"
               />
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center">
+              <div className="self-stretch bg-nero1 flex flex-col items-center justify-center">
                 <div className="self-stretch flex flex-col items-center justify-center py-4 px-0">
                   <div className="self-stretch relative leading-[120%] font-semibold">
                     Prepare for the future
@@ -860,13 +860,13 @@ const ApplyTeacher: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[350px] rounded-3xs bg-nero flex flex-col items-center justify-center p-5 box-border">
+            <div className="w-[350px] rounded-3xs bg-nero1 flex flex-col items-center justify-center p-5 box-border">
               <img
                 className="w-[250px] relative h-[250px] overflow-hidden shrink-0 object-cover"
                 alt=""
                 src="/reason1png8@2x.png"
               />
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center">
+              <div className="self-stretch bg-nero1 flex flex-col items-center justify-center">
                 <div className="self-stretch flex flex-col items-center justify-center py-4 px-0">
                   <div className="self-stretch relative leading-[120%] font-semibold">
                     Eligibility criteria for teachers

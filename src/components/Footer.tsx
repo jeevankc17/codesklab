@@ -24,7 +24,7 @@ const Footer: FunctionComponent<FooterType> = ({
   onCompetetionClick,
 }) => {
   return (
-    <div className="self-stretch flex flex-col items-center justify-start z-[0] text-center text-13xl text-black1 font-heading-04-600">
+    <div className="self-stretch flex flex-col items-center justify-start z-[0] text-center text-13xl text-black1 font-body-xl-500">
       <img
         className="self-stretch relative max-w-full overflow-hidden h-[108px] shrink-0 object-cover"
         alt=""
@@ -37,7 +37,7 @@ const Footer: FunctionComponent<FooterType> = ({
               CoDesk
             </div>
           </div>
-          <div className="self-stretch flex flex-row items-start justify-start text-lg text-nero">
+          <div className="self-stretch flex flex-row items-start justify-start text-lg text-nero1">
             <div className="h-[81px] flex-1 relative leading-[150%] inline-block md:text-left sm:text-left">
               The CoDesk is on a mission to inspire school kids in Nepal to fall
               in love with coding. Coding is proven to develop creativity,
@@ -49,7 +49,7 @@ const Footer: FunctionComponent<FooterType> = ({
             </div>
           </div>
         </div>
-        <div className="self-stretch flex flex-row items-center justify-center gap-[5px] text-right text-base text-nero lg:flex-row md:flex-col sm:flex-col">
+        <div className="self-stretch flex flex-row items-center justify-center gap-[5px] text-right text-base text-nero1 lg:flex-row md:flex-col sm:flex-col">
           <div className="flex-1 flex flex-col items-start justify-start gap-[10px] md:flex-[unset] md:self-stretch sm:!mb-[40px] sm:flex-[unset] sm:self-stretch">
             <div className="self-stretch flex flex-row items-start justify-start text-xl">
               <div className="flex-1 relative leading-[150%] font-semibold">

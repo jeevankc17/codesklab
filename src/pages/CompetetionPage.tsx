@@ -142,9 +142,9 @@ const CompetetionPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-29xl text-nero font-heading-04-600 sm:py-[30px] sm:px-[5px] sm:box-border">
+      <div className="w-full relative bg-nero1 flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-29xl text-nero1 font-body-xl-500 sm:py-[30px] sm:px-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero1 flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -155,14 +155,14 @@ const CompetetionPage: FunctionComponent = () => {
                   CoDesk
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
-                <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+                <div className="bg-nero1 flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -186,7 +186,7 @@ const CompetetionPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -235,11 +235,11 @@ const CompetetionPage: FunctionComponent = () => {
               </div>
             </div>
             <button
-              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero1 text-center inline-block max-h-[58px]">
                 View a Competetions
               </div>
             </button>
@@ -258,49 +258,49 @@ const CompetetionPage: FunctionComponent = () => {
             <div className="self-stretch flex flex-row items-center justify-center p-2.5 z-[2]">
               <b className="flex-1 relative leading-[42px]">{`All coding competitions & hackathons`}</b>
             </div>
-            <div className="self-stretch bg-nero flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-px gap-[32px] sticky top-[77] [background:white] z-[1] text-xs font-heading-04-600">
+            <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-start justify-center pt-0 px-0 pb-px gap-[32px] sticky top-[77] [background:white] z-[1] text-xs font-body-xl-500">
               <div
-                className="w-[121px] rounded bg-nero h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer text-aqua-deep"
+                className="w-[121px] rounded bg-nero1 h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer text-aqua-deep"
                 onClick={onLabelliveContainerClick}
               >
                 <div className="flex-1 relative leading-[130%] font-semibold">
                   <span>Live</span>
                   <span className="text-black1">{` `}</span>
                 </div>
-                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero font-segoe-ui">
+                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero1 font-segoe-ui">
                   <div className="flex-1 relative leading-[21px] font-semibold">
                     1
                   </div>
                 </div>
               </div>
               <div
-                className="w-[121px] rounded bg-nero h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
+                className="w-[121px] rounded bg-nero1 h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
                 onClick={onLabelupcomingContainerClick}
               >
                 <div className="flex-1 relative leading-[130%] font-semibold">{`Upcoming `}</div>
-                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero font-segoe-ui">
+                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero1 font-segoe-ui">
                   <div className="flex-1 relative leading-[21px] font-semibold">
                     1
                   </div>
                 </div>
               </div>
               <div
-                className="w-[121px] rounded bg-nero h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
+                className="w-[121px] rounded bg-nero1 h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
                 onClick={onLabelpracticeContainerClick}
               >
                 <div className="flex-1 relative leading-[130%] font-semibold">{`Practice `}</div>
-                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero font-segoe-ui">
+                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero1 font-segoe-ui">
                   <div className="flex-1 relative leading-[21px] font-semibold">
                     1
                   </div>
                 </div>
               </div>
               <div
-                className="w-[121px] rounded bg-nero h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
+                className="w-[121px] rounded bg-nero1 h-9 flex flex-row items-center justify-start py-0 px-0.5 box-border gap-[12px] cursor-pointer"
                 onClick={onLabelcompletedContainerClick}
               >
                 <div className="flex-1 relative leading-[130%] font-semibold">{`Completed `}</div>
-                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero font-segoe-ui">
+                <div className="w-[33px] rounded bg-aqua-deep flex flex-row items-start justify-start py-0.5 px-2 box-border text-sm text-nero1 font-segoe-ui">
                   <div className="flex-1 relative leading-[21px] font-semibold">
                     1
                   </div>
@@ -308,13 +308,13 @@ const CompetetionPage: FunctionComponent = () => {
               </div>
             </div>
             <div className="self-stretch flex flex-col items-start justify-start p-5 gap-[16px] z-[0] text-left text-lgi-5 font-segoe-ui">
-              <div className="self-stretch flex flex-col items-center justify-center pt-[50px] px-0 pb-0 gap-[16px] relative text-center text-5xl text-aqua-deep font-heading-04-600">
+              <div className="self-stretch flex flex-col items-center justify-center pt-[50px] px-0 pb-0 gap-[16px] relative text-center text-5xl text-aqua-deep font-body-xl-500">
                 <div className="self-stretch flex flex-col items-start justify-start text-left text-lgi-5 font-segoe-ui">
                   <div className="self-stretch relative leading-[30px] font-semibold">
                     Live
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px]">
+                <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-between p-[15px]">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -349,13 +349,13 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero1 border-[1px] border-solid border-nero1 md:w-full sm:w-full"
                     onClick={onButtonsgreenContentContainerClick}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">{`Register & Join`}</div>
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px]">
+                <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-between p-[15px]">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -390,7 +390,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full sm:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero1 border-[1px] border-solid border-nero1 md:w-full sm:w-full"
                     onClick={onButtonsgreenContentContainer2Click}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">{`Register & Join`}</div>
@@ -407,7 +407,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Upcoming
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-heading-04-600">
+                <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-xl-500">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -442,11 +442,11 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <button
-                    className="cursor-pointer py-[9px] px-5 bg-aqua-deep w-[230px] rounded box-border flex flex-row items-center justify-center border-[1px] border-solid border-nero md:w-full"
+                    className="cursor-pointer py-[9px] px-5 bg-aqua-deep w-[230px] rounded box-border flex flex-row items-center justify-center border-[1px] border-solid border-nero1 md:w-full"
                     autoFocus={true}
                     onClick={onButtonsorangeContent1Click}
                   >
-                    <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero text-center inline-block max-h-[58px]">
+                    <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero1 text-center inline-block max-h-[58px]">
                       Register Now
                     </div>
                   </button>
@@ -462,7 +462,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Practice
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-heading-04-600">
+                <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-xl-500">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -497,7 +497,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero border-[1px] border-solid border-nero md:w-full"
+                    className="w-[230px] rounded bg-chateau-green box-border h-12 flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg text-nero1 border-[1px] border-solid border-nero1 md:w-full"
                     onClick={onButtonsgreenContentContainer3Click}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">
@@ -516,7 +516,7 @@ const CompetetionPage: FunctionComponent = () => {
                     Completed
                   </div>
                 </div>
-                <div className="self-stretch bg-nero flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-heading-04-600">
+                <div className="self-stretch bg-nero1 flex flex-row flex-wrap items-center justify-between p-[15px] text-center text-5xl text-aqua-deep font-body-xl-500">
                   <div className="flex-1 flex flex-row items-center justify-between md:flex-col">
                     <img
                       className="w-[186px] rounded h-[127px] overflow-hidden shrink-0 object-cover"
@@ -551,7 +551,7 @@ const CompetetionPage: FunctionComponent = () => {
                     </div>
                   </div>
                   <div
-                    className="w-[230px] rounded bg-nero box-border flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg border-[1px] border-solid border-aqua-deep md:w-full"
+                    className="w-[230px] rounded bg-nero1 box-border flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-lg border-[1px] border-solid border-aqua-deep md:w-full"
                     onClick={onButtonswhiteContentContainerClick}
                   >
                     <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">
@@ -566,15 +566,15 @@ const CompetetionPage: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex-1 flex flex-row items-start justify-center z-[0] text-left text-5xl font-heading-04-600 lg:w-full lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
-            <div className="w-[350px] rounded-3xs bg-nero flex flex-col items-center justify-start p-2.5 box-border gap-[15px] sticky top-[77] lg:flex md:flex">
+          <div className="self-stretch flex-1 flex flex-row items-start justify-center z-[0] text-left text-5xl font-body-xl-500 lg:w-full lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
+            <div className="w-[350px] rounded-3xs bg-nero1 flex flex-col items-center justify-start p-2.5 box-border gap-[15px] sticky top-[77] lg:flex md:flex">
               <div className="self-stretch relative leading-[150%] font-semibold text-transparent !bg-clip-text [background:linear-gradient(16.28deg,_#c53232,_#7c36dd)] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">{`Play while you learn & win amazing prizes`}</div>
               <img
                 className="self-stretch relative max-w-full overflow-hidden h-[213px] shrink-0 object-cover"
                 alt=""
                 src="/image15@2x.png"
               />
-              <div className="self-stretch bg-nero box-border overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[5px] min-h-[52.5px] text-base border-[1px] border-solid border-nero">
+              <div className="self-stretch bg-nero1 box-border overflow-hidden flex flex-col items-start justify-start pt-0 px-0 pb-[5px] min-h-[52.5px] text-base border-[1px] border-solid border-nero1">
                 <div className="w-full relative leading-[150%] inline-block max-w-[320px]">
                   Real-time Leaderboard
                 </div>
@@ -585,11 +585,11 @@ const CompetetionPage: FunctionComponent = () => {
                   Championships
                 </div>
                 <button
-                  className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+                  className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
                   autoFocus={true}
                   onClick={onButtonsorangeContent2Click}
                 >
-                  <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero text-center inline-block max-h-[58px]">
+                  <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero1 text-center inline-block max-h-[58px]">
                     Take a quiz now
                   </div>
                 </button>

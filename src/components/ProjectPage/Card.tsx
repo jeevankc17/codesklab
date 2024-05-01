@@ -24,7 +24,7 @@ const ProjectCard: FunctionComponent<ProjectCardType> = ({
   }, []);
 
   return (
-    <div className="w-[350px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-lg bg-nero flex flex-col items-start justify-start p-2.5 box-border relative gap-[25px] text-left text-5xl text-black1 font-heading-04-600">
+    <div className="w-[350px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-lg bg-nero1 flex flex-col items-start justify-start p-2.5 box-border relative gap-[25px] text-left text-5xl text-black1 font-body-xl-500">
       <img
         className="self-stretch relative max-w-full overflow-hidden h-[213px] shrink-0 object-cover z-[0]"
         alt=""
@@ -62,11 +62,11 @@ const ProjectCard: FunctionComponent<ProjectCardType> = ({
         </div>
         <div className="self-stretch flex flex-col items-start justify-center">
           <button
-            className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+            className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
             onClick={onButtonsorangeContentClick}
             id={projectId}
           >
-            <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
+            <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero1 text-center inline-block max-h-[58px]">
               View Project
             </div>
           </button>

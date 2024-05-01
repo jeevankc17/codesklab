@@ -2,6 +2,7 @@ import { FunctionComponent, useState, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import DrawerMenus from "../components/DrawerMenus";
 import PortalDrawer from "../components/PortalDrawer";
+import ReviewCards from "../components/ReviewCards";
 import Footer from "../components/Footer";
 
 const ReviewPage: FunctionComponent = () => {
@@ -83,9 +84,9 @@ const ReviewPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-left text-21xl text-nero font-inter sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero1 flex flex-col items-center justify-start p-5 box-border gap-[20px] text-left text-21xl text-nero1 font-inter sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero1 flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -96,14 +97,14 @@ const ReviewPage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
-                <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+                <div className="bg-nero1 flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -131,7 +132,7 @@ const ReviewPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -167,18 +168,18 @@ const ReviewPage: FunctionComponent = () => {
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative tracking-[-0.01em] leading-[48px] font-semibold whitespace-pre-wrap sm:text-21xl">{`Testimonials  & Reviews By Our Little Coders And their well wishers`}</div>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start text-base font-heading-04-600">
+            <div className="self-stretch flex flex-col items-start justify-start text-base font-body-xl-500">
               <div className="self-stretch relative leading-[150%]">
                 Hear our students their parents and their teachers share the
                 many reasons why they love CoDesk
               </div>
             </div>
             <button
-              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero"
+              className="cursor-pointer py-[9px] px-5 bg-tomato self-stretch rounded box-border h-[38px] flex flex-row items-center justify-center border-[1px] border-solid border-nero1"
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg tracking-[-0.01em] leading-[20px] capitalize font-semibold font-inter text-nero1 text-center inline-block max-h-[58px]">
                 View Testimonials
               </div>
             </button>
@@ -189,48 +190,18 @@ const ReviewPage: FunctionComponent = () => {
             src="/image-55@2x.png"
           />
         </div>
-        <div className="self-stretch bg-nero flex flex-col items-center justify-center gap-[15px] relative z-[1] text-center text-black1">
-          <div className="self-stretch bg-nero flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
+        <div className="self-stretch bg-nero1 flex flex-col items-center justify-center gap-[15px] relative z-[1] text-center text-black1">
+          <div className="self-stretch bg-nero1 flex flex-col items-center justify-center py-0 px-[5px] gap-[5px]">
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <div className="flex-1 relative tracking-[-0.01em] leading-[48px] font-semibold whitespace-pre-wrap">{`Testimonials  & Reviews`}</div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-sm font-heading-04-600">
+            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-sm font-body-xl-500">
               <div className="flex-1 relative leading-[150%]">
                 Reviews and testimonials from students, parents and teachers
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-lg text-footer-header font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
-            <div className="w-[380px] shadow-[0px_1px_3px_rgba(0,_0,_0,_0.1)] rounded bg-gray1-100 box-border flex flex-col items-start justify-start p-[15px] gap-[15px] border-[1px] border-solid border-footer-header">
-              <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[30px]">
-                <div className="flex flex-row items-start justify-start">
-                  <img
-                    className="w-[100px] relative rounded-100xl h-[100px] object-cover"
-                    alt=""
-                    src="/image21@2x.png"
-                  />
-                </div>
-                <div className="flex-1 flex flex-col items-start justify-start gap-[5px]">
-                  <div className="self-stretch flex flex-row items-center justify-start">
-                    <div className="flex-1 relative leading-[150%] font-semibold">
-                      Nisha
-                    </div>
-                  </div>
-                  <div className="self-stretch flex flex-row items-center justify-start text-base">
-                    <div className="flex-1 relative leading-[150%]">
-                      CoDesk Student
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="self-stretch flex flex-row items-start justify-start text-center text-5xl">
-                <div className="flex-1 relative leading-[150%] font-semibold">
-                  I love learning with CoDesk. It's always fun and the teacher
-                  is nice and kind.
-                </div>
-              </div>
-            </div>
-          </div>
+          <ReviewCards />
           <div
             className="absolute left-[0] top-[-70px]"
             data-scroll-to="worksheetSectionContainer"

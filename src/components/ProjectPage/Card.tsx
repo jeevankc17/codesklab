@@ -1,6 +1,6 @@
 import { FunctionComponent, useCallback } from "react";
 
-export type CardType = {
+export type ProjectCardType = {
   nameStudent?: string;
   courseName?: string;
   projectName?: string;
@@ -10,7 +10,7 @@ export type CardType = {
   grade?: string;
 };
 
-const Card: FunctionComponent<CardType> = ({
+const ProjectCard: FunctionComponent<ProjectCardType> = ({
   nameStudent,
   courseName,
   projectName,
@@ -24,7 +24,7 @@ const Card: FunctionComponent<CardType> = ({
   }, []);
 
   return (
-    <div className="w-[350px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-lg bg-nero flex flex-col items-start justify-start p-2.5 box-border relative gap-[25px] text-left text-5xl text-black1 font-body-xl-500">
+    <div className="w-[350px] shadow-[0px_4px_4px_rgba(0,_0,_0,_0.25)] rounded-lg bg-nero flex flex-col items-start justify-start p-2.5 box-border relative gap-[25px] text-left text-5xl text-black1 font-heading-04-600">
       <img
         className="self-stretch relative max-w-full overflow-hidden h-[213px] shrink-0 object-cover z-[0]"
         alt=""
@@ -66,7 +66,7 @@ const Card: FunctionComponent<CardType> = ({
             onClick={onButtonsorangeContentClick}
             id={projectId}
           >
-            <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+            <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
               View Project
             </div>
           </button>
@@ -81,4 +81,4 @@ const Card: FunctionComponent<CardType> = ({
   );
 };
 
-export default Card;
+export default ProjectCard;

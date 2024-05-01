@@ -2,6 +2,7 @@ import { FunctionComponent, useState, useCallback } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import DrawerMenus from "../components/DrawerMenus";
 import PortalDrawer from "../components/PortalDrawer";
+import QuizCards from "../components/QuizPage/QuizCards";
 
 const QuizPage: FunctionComponent = () => {
   const navigate = useNavigate();
@@ -44,10 +45,6 @@ const QuizPage: FunctionComponent = () => {
     }
   }, []);
 
-  const onButtonswhiteContentContainerClick = useCallback(() => {
-    navigate("/quizbycourseidpage");
-  }, [navigate]);
-
   const onAboutUs2Click = useCallback(() => {
     //TODO: link
   }, []);
@@ -82,9 +79,9 @@ const QuizPage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-29xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[3]">
-          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-body-xl-500 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
+          <header className="self-stretch w-full rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky top-[0] [background:white] text-left text-29xl text-dodger-blue font-heading-04-600 lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="flex-1 flex flex-row items-center justify-between">
               <Link
                 className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-center p-2.5 text-[inherit]"
@@ -102,7 +99,7 @@ const QuizPage: FunctionComponent = () => {
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -128,7 +125,7 @@ const QuizPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUsClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -176,7 +173,7 @@ const QuizPage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContentClick}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 View a Quizzes
               </div>
             </button>
@@ -201,56 +198,7 @@ const QuizPage: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-5xl sm:pl-[5px] sm:pr-[5px] sm:box-border">
-            <div className="rounded-lg flex flex-col items-start justify-start">
-              <div className="w-[350px] bg-nero flex flex-col items-center justify-start p-2.5 box-border gap-[10px]">
-                <img
-                  className="self-stretch relative max-w-full overflow-hidden h-[213px] shrink-0 object-cover"
-                  alt=""
-                  src="/image19@2x.png"
-                />
-                <div className="self-stretch bg-nero flex flex-col items-start justify-start py-0 px-[15px] gap-[15px]">
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center">
-                    <div className="flex-1 relative leading-[150%] font-semibold">
-                      Scratch Programming
-                    </div>
-                  </div>
-                  <div className="self-stretch bg-nero flex flex-col items-start justify-start gap-[5px] text-base">
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                      <img
-                        className="w-6 relative h-6 overflow-hidden shrink-0"
-                        alt=""
-                        src="/icon2.svg"
-                      />
-                      <div className="flex-1 bg-nero flex flex-row items-center justify-center">
-                        <div className="flex-1 relative leading-[150%]">{`6 modules & 36 lessons `}</div>
-                      </div>
-                    </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-start gap-[10px]">
-                      <img
-                        className="w-6 relative h-6"
-                        alt=""
-                        src="/vector11.svg"
-                      />
-                      <div className="flex-1 bg-nero flex flex-row items-center justify-center">
-                        <div className="flex-1 relative leading-[150%]">
-                          Leaderboard
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="self-stretch rounded bg-nero box-border h-[41px] flex flex-row items-center justify-center py-[9px] px-5 cursor-pointer text-center text-lg text-aqua-deep border-[1px] border-solid border-aqua-deep"
-                    onClick={onButtonswhiteContentContainerClick}
-                  >
-                    <div className="relative leading-[150%] font-semibold inline-block max-h-[58px]">
-                      View Quiz
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          <QuizCards />
           <div
             className="absolute left-[0] top-[-70px]"
             data-scroll-to="quizzesContainer"

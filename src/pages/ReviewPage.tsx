@@ -96,14 +96,14 @@ const ReviewPage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -131,7 +131,7 @@ const ReviewPage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -144,17 +144,17 @@ const ReviewPage: FunctionComponent = () => {
                     <img
                       className="absolute top-[6px] left-[2.1px] max-h-full w-[19.8px]"
                       alt=""
-                      src="/vector-1.svg"
+                      src="/vector-11.svg"
                     />
                     <img
                       className="absolute top-[12px] left-[2.1px] max-h-full w-[19.8px]"
                       alt=""
-                      src="/vector-1.svg"
+                      src="/vector-11.svg"
                     />
                     <img
                       className="absolute top-[18px] left-[2.1px] max-h-full w-[19.8px]"
                       alt=""
-                      src="/vector-1.svg"
+                      src="/vector-11.svg"
                     />
                   </button>
                 </div>
@@ -167,10 +167,10 @@ const ReviewPage: FunctionComponent = () => {
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative tracking-[-0.01em] leading-[48px] font-semibold whitespace-pre-wrap sm:text-21xl">{`Testimonials  & Reviews By Our Little Coders And their well wishers`}</div>
             </div>
-            <div className="self-stretch flex flex-col items-start justify-start text-base font-body-xl-500">
+            <div className="self-stretch flex flex-col items-start justify-start text-base font-heading-04-600">
               <div className="self-stretch relative leading-[150%]">
-                Hear our students and their parents share the many reasons why
-                they love CoDesk
+                Hear our students their parents and their teachers share the
+                many reasons why they love CoDesk
               </div>
             </div>
             <button
@@ -194,20 +194,20 @@ const ReviewPage: FunctionComponent = () => {
             <div className="self-stretch flex flex-row items-center justify-center p-2.5">
               <div className="flex-1 relative tracking-[-0.01em] leading-[48px] font-semibold whitespace-pre-wrap">{`Testimonials  & Reviews`}</div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-sm font-body-xl-500">
+            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-sm font-heading-04-600">
               <div className="flex-1 relative leading-[150%]">
-                Reviews and testimonials from students and parents
+                Reviews and testimonials from students, parents and teachers
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-lg text-footer-header font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-lg text-footer-header font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
             <div className="w-[380px] shadow-[0px_1px_3px_rgba(0,_0,_0,_0.1)] rounded bg-gray1-100 box-border flex flex-col items-start justify-start p-[15px] gap-[15px] border-[1px] border-solid border-footer-header">
               <div className="self-stretch flex flex-row flex-wrap items-center justify-start gap-[30px]">
                 <div className="flex flex-row items-start justify-start">
                   <img
                     className="w-[100px] relative rounded-100xl h-[100px] object-cover"
                     alt=""
-                    src="/image17@2x.png"
+                    src="/image21@2x.png"
                   />
                 </div>
                 <div className="flex-1 flex flex-col items-start justify-start gap-[5px]">

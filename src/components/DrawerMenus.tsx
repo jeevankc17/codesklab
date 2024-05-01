@@ -197,7 +197,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
               alt=""
-              src="/bookopentext.svg"
+              src="/bookopentext1.svg"
             />
             <div className="relative leading-[24px] font-medium">
               Worksheets
@@ -210,7 +210,7 @@ const DrawerMenus: FunctionComponent<DrawerMenusType> = ({ onClose }) => {
             <img
               className="w-6 relative h-6 overflow-hidden shrink-0"
               alt=""
-              src="/bookopentext.svg"
+              src="/bookopentext1.svg"
             />
             <div className="relative leading-[24px] font-medium">Blogs</div>
           </a>

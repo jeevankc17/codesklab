@@ -1,5 +1,5 @@
 import { FunctionComponent, useState } from "react";
-import Card from "./Card";
+import ProjectCard from "./Card";
 
 type CardItemsType = Array<{
   nameStudent: string;
@@ -11,7 +11,7 @@ type CardItemsType = Array<{
   profileImage: string;
 }>;
 
-const Cards: FunctionComponent = () => {
+const ProjectCards: FunctionComponent = () => {
   const [cardItems, setCardItems] = useState<CardItemsType>([
     {
       nameStudent: "Aarav",
@@ -125,9 +125,9 @@ const Cards: FunctionComponent = () => {
     },
   ]);
   return (
-    <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-5xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+    <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 text-left text-5xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
       {cardItems.map((item, index) => (
-        <Card
+        <ProjectCard
           key={index}
           nameStudent={item.nameStudent}
           courseName={item.courseName}
@@ -142,4 +142,4 @@ const Cards: FunctionComponent = () => {
   );
 };
 
-export default Cards;
+export default ProjectCards;

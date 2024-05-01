@@ -96,14 +96,14 @@ const AboutUsPage: FunctionComponent = () => {
                   CoDesk
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -130,7 +130,7 @@ const AboutUsPage: FunctionComponent = () => {
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onAboutUsContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-body-xl-500 text-aqua-deep text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-heading-04-600 text-aqua-deep text-left inline-block">
                       About Us
                     </button>
                   </div>
@@ -161,7 +161,7 @@ const AboutUsPage: FunctionComponent = () => {
             </div>
           </header>
         </div>
-        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[3] text-left text-29xl text-nero font-body-xl-500 lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <div className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[3] text-left text-29xl text-nero font-heading-04-600 lg:flex-col md:flex-col sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-center justify-center p-[15px] gap-[34px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
             <div className="self-stretch flex flex-col items-start justify-start">
               <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">{`Building the world’s largest & most loved coding school for kids & teens`}</div>
@@ -204,14 +204,14 @@ const AboutUsPage: FunctionComponent = () => {
                 data-scroll-to="headingContainer"
               />
             </div>
-            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-xl text-dimgray font-body-xl-500">
+            <div className="self-stretch flex flex-row items-center justify-center p-2.5 text-xl text-dimgray font-heading-04-600">
               <div className="flex-1 relative leading-[32px]">
                 With over 30 years of combined experience, we have got a
                 well-seasoned team at the helm.
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-base font-body-xl-500 md:flex-row md:flex-wrap">
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-[15px] gap-[15px] text-base font-heading-04-600 md:flex-row md:flex-wrap">
             <div className="w-[300px] shadow-[0px_25px_50px_-12px_rgba(0,_0,_0,_0.25)] rounded-lg bg-nero overflow-hidden shrink-0 flex flex-col items-center justify-center py-[50px] px-[15px] box-border gap-[15px]">
               <div className="self-stretch flex flex-col items-center justify-start">
                 <div className="self-stretch relative leading-[120%] font-semibold whitespace-pre-wrap">{`“Teaching coding to kids is a huge responsibility and we want to take that”  `}</div>
@@ -331,7 +331,7 @@ const AboutUsPage: FunctionComponent = () => {
               <b className="flex-1 relative leading-[54px]">Our Core Belief</b>
             </div>
           </div>
-          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-13xl font-body-xl-500">
+          <div className="self-stretch bg-nero flex flex-col items-start justify-start p-[15px] gap-[40px] text-13xl font-heading-04-600">
             <div className="self-stretch bg-nero flex flex-row items-start justify-start gap-[40px] lg:flex-col md:flex-col">
               <div className="flex-1 bg-nero flex flex-row items-center justify-center gap-[20px] w-full lg:flex-[unset] lg:self-stretch md:flex-col md:flex-[unset] md:self-stretch">
                 <div className="overflow-hidden flex flex-row items-start justify-center relative object-contain sm:flex-col">
@@ -479,13 +479,13 @@ const AboutUsPage: FunctionComponent = () => {
                         Conceptualization
                       </div>
                     </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-body-xl-500">
+                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-heading-04-600">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         (April 2022)
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-heading-04-600">
                     <div className="flex-1 relative tracking-[-0.01em] leading-[24px]">
                       <span>
                         Identified the need for CoDeskLab to streamline
@@ -497,7 +497,7 @@ const AboutUsPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-body-xl-500 lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-heading-04-600 lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[70px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:pl-2.5 md:pr-2.5 md:box-border md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
@@ -546,13 +546,13 @@ const AboutUsPage: FunctionComponent = () => {
                         Product Development Kickoff
                       </div>
                     </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-body-xl-500">
+                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-heading-04-600">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         (January 2023)
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-heading-04-600">
                     <div className="flex-1 relative tracking-[-0.01em] leading-[24px]">
                       <span>
                         Initiated development on CoDeskLab, focusing on core
@@ -563,7 +563,7 @@ const AboutUsPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-body-xl-500 lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-heading-04-600 lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[50px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
@@ -612,13 +612,13 @@ const AboutUsPage: FunctionComponent = () => {
                         User Feedback and Iteration
                       </div>
                     </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-body-xl-500">
+                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-heading-04-600">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         (October 2023)
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-heading-04-600">
                     <div className="flex-1 relative tracking-[-0.01em] leading-[24px]">
                       Incorporated user feedback to enhance the afterSchool
                       software, prioritizing user experience and functionality.
@@ -627,7 +627,7 @@ const AboutUsPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-body-xl-500 lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-heading-04-600 lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[50px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
@@ -678,13 +678,13 @@ const AboutUsPage: FunctionComponent = () => {
                         User Acquisition and Onboarding
                       </div>
                     </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-body-xl-500">
+                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-heading-04-600">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         (July 2024)
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-heading-04-600">
                     <div className="flex-1 relative tracking-[-0.01em] leading-[24px]">
                       Executed targeted marketing campaigns to acquire new users
                       and provided comprehensive onboarding support.
@@ -693,7 +693,7 @@ const AboutUsPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-body-xl-500 lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-heading-04-600 lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[50px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">
@@ -744,13 +744,13 @@ const AboutUsPage: FunctionComponent = () => {
                         Continuous Improvement and Innovation
                       </div>
                     </div>
-                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-body-xl-500">
+                    <div className="self-stretch bg-nero flex flex-row items-center justify-center p-2.5 text-base font-heading-04-600">
                       <div className="flex-1 relative leading-[22px] font-medium">
                         (April 2025)
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-row items-center justify-center py-2.5 px-[30px] text-lg font-heading-04-600">
                     <div className="flex-1 relative tracking-[-0.01em] leading-[24px]">
                       Committed to ongoing product development and innovation,
                       staying ahead of the competition.
@@ -759,7 +759,7 @@ const AboutUsPage: FunctionComponent = () => {
                 </div>
               </div>
             </div>
-            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-body-xl-500 lg:flex-col md:flex-col">
+            <div className="self-stretch bg-nero flex flex-row items-center justify-between text-9xl-7 font-heading-04-600 lg:flex-col md:flex-col">
               <div className="flex-1 flex flex-col items-center justify-center py-0 px-[50px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:order-[2] md:flex-[unset] md:self-stretch">
                 <div className="self-stretch flex flex-col items-start justify-start w-full">
                   <div className="self-stretch flex flex-col items-start justify-start">

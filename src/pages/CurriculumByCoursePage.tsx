@@ -99,7 +99,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-base text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-start justify-center p-5 box-border gap-[20px] text-left text-base text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[4]">
           <header className="self-stretch rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky w-full top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="w-[1240px] flex flex-row items-center justify-between">
@@ -112,13 +112,13 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <div
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onCoursesContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-body-xl-500 text-aqua-deep text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-heading-04-600 text-aqua-deep text-left inline-block">
                       Courses
                     </button>
                   </div>
@@ -146,7 +146,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -319,7 +319,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-sm font-body-xl-500">
+                  <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-sm font-heading-04-600">
                     <div className="self-stretch flex flex-col items-center justify-center gap-[9px]">
                       <div className="self-stretch flex flex-row items-center justify-center gap-[5px]">
                         <img
@@ -856,7 +856,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                       Scratch Programming
                     </div>
                   </div>
-                  <div className="self-stretch flex flex-col items-start justify-start font-body-xl-500">
+                  <div className="self-stretch flex flex-col items-start justify-start font-heading-04-600">
                     <div className="self-stretch relative tracking-[-0.01em] leading-[22px]">
                       <p className="m-0">
                         Learn and excel at coding and craft intricate
@@ -881,7 +881,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-2 text-center text-dodger-blue font-body-xl-500">
+                  <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-2 text-center text-dodger-blue font-heading-04-600">
                     <div className="w-full relative tracking-[-0.01em] leading-[22px] inline-block max-w-[384px]">
                       First class free!
                     </div>
@@ -911,7 +911,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                       This course includes:
                     </b>
                   </div>
-                  <div className="self-stretch flex flex-col items-start justify-start text-sm font-body-xl-500">
+                  <div className="self-stretch flex flex-col items-start justify-start text-sm font-heading-04-600">
                     <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                       <img
                         className="w-8 relative h-8 overflow-hidden shrink-0"
@@ -1023,7 +1023,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
                 An ideal website building course for kids
               </div>
             </div>
-            <div className="self-stretch flex flex-row items-center justify-center py-2.5 px-[50px] text-xl font-body-xl-500">
+            <div className="self-stretch flex flex-row items-center justify-center py-2.5 px-[50px] text-xl font-heading-04-600">
               <div className="flex-1 relative leading-[32px]">
                 Learn the principles of website building, start designing
                 stunning websites, and add multimedia and complex
@@ -1031,7 +1031,7 @@ const CurriculumByCoursePage: FunctionComponent = () => {
               </div>
             </div>
           </div>
-          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 gap-[50px] text-left text-5xl font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+          <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5 gap-[50px] text-left text-5xl font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
             <div className="w-[350px] shadow-[0px_10px_15px_-3px_rgba(0,_0,_0,_0.1),_0px_4px_6px_-2px_rgba(0,_0,_0,_0.05)] rounded bg-nero overflow-hidden shrink-0 flex flex-col items-start justify-start p-2.5 box-border gap-[10px] max-h-[709px]">
               <div className="self-stretch bg-nero flex flex-col items-start justify-start">
                 <div className="self-stretch flex flex-col items-start justify-center">

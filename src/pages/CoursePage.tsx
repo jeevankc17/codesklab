@@ -186,7 +186,7 @@ const CoursePage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-start p-5 box-border gap-[20px] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[5]">
           <header className="self-stretch rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky w-full top-[0] [background:white] text-left text-13xl text-dodger-blue font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="w-[1240px] flex flex-row items-center justify-between">
@@ -199,13 +199,13 @@ const CoursePage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </Link>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <div
                     className="flex flex-row items-center justify-end cursor-pointer"
                     onClick={onCoursesContainerClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-body-xl-500 text-aqua-deep text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-base leading-[120%] font-semibold font-heading-04-600 text-aqua-deep text-left inline-block">
                       Courses
                     </button>
                   </div>
@@ -233,7 +233,7 @@ const CoursePage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -1495,7 +1495,7 @@ const CoursePage: FunctionComponent = () => {
                     Introduction to Basic Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A perfect course for kids who want to test drive to coding
                     road.
@@ -1514,7 +1514,7 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -1766,7 +1766,7 @@ const CoursePage: FunctionComponent = () => {
                     Intermidiate Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A course for those who want to master the art of coding and
                     create a better future through code.
@@ -1785,7 +1785,7 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -2034,7 +2034,7 @@ const CoursePage: FunctionComponent = () => {
                     Advanced Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A perfect course for kids who want to use coding to solve
                     real-world problems and create a better future.
@@ -2053,7 +2053,7 @@ const CoursePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -2295,7 +2295,7 @@ const CoursePage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[1] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[1] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Coding Workshops

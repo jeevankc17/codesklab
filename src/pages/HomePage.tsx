@@ -240,7 +240,7 @@ const HomePage: FunctionComponent = () => {
 
   return (
     <>
-      <div className="w-full relative bg-nero flex flex-col items-center justify-center p-[30px] box-border gap-[60px] text-center text-17xl text-black1 font-body-xl-500 sm:gap-[5px] sm:pl-[5px] sm:pr-[5px] sm:box-border">
+      <div className="w-full relative bg-nero flex flex-col items-center justify-center p-[30px] box-border gap-[60px] text-center text-17xl text-black1 font-heading-04-600 sm:gap-[5px] sm:pl-[5px] sm:pr-[5px] sm:box-border">
         <div className="self-stretch h-[77px] flex flex-row items-start justify-start sticky top-[0] z-[19]">
           <header className="self-stretch rounded bg-nero flex flex-row items-center justify-center py-[22px] px-20 box-border sticky w-full top-[0] [background:white] text-left text-13xl text-aqua-deep font-inter lg:pl-10 lg:pr-10 lg:box-border md:pl-6 md:pr-6 md:box-border">
             <div className="w-[1240px] flex flex-row items-center justify-between">
@@ -252,14 +252,14 @@ const HomePage: FunctionComponent = () => {
                   CoDeskLab
                 </div>
               </div>
-              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-body-xl-500 sm:flex">
+              <div className="flex flex-row items-center justify-end gap-[36px] text-sm text-black1 font-heading-04-600 sm:flex">
                 <div className="bg-nero flex flex-row items-center justify-end gap-[30px] md:hidden">
                   <Link
                     className="cursor-pointer [text-decoration:none] flex flex-row items-center justify-end"
                     to="/coursepage"
                     onClick={onCoursesClick}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       Courses
                     </button>
                   </Link>
@@ -286,7 +286,7 @@ const HomePage: FunctionComponent = () => {
                     to="/aboutuspage"
                     onClick={onAboutUs2Click}
                   >
-                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-body-xl-500 text-black1 text-left inline-block">
+                    <button className="cursor-pointer [border:none] p-0 bg-[transparent] relative text-sm leading-[150%] font-heading-04-600 text-black1 text-left inline-block">
                       About Us
                     </button>
                   </Link>
@@ -319,7 +319,7 @@ const HomePage: FunctionComponent = () => {
         </div>
         <header className="self-stretch rounded-mini bg-footer-header flex flex-row items-center justify-between py-0 px-[15px] z-[18] text-left text-29xl text-nero font-inter lg:flex-col md:flex-col md:gap-[10px] md:p-2.5 md:box-border sm:gap-[5px] sm:p-[5px] sm:box-border">
           <div className="flex-1 flex flex-col items-start justify-start p-[15px] gap-[15px] lg:order-[2] lg:flex-[unset] lg:self-stretch md:flex-[unset] md:self-stretch">
-            <div className="self-stretch flex flex-col items-start justify-start font-body-xl-500">
+            <div className="self-stretch flex flex-col items-start justify-start font-heading-04-600">
               <div className="self-stretch relative leading-[120%] font-semibold sm:text-21xl">
                 Online coding classes for kids, teens and adult to become the
                 innovators of the future
@@ -332,7 +332,7 @@ const HomePage: FunctionComponent = () => {
                     2,000+
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-start justify-start py-0 pr-[26.7px] pl-0 text-base font-body-xl-500">
+                <div className="self-stretch flex flex-col items-start justify-start py-0 pr-[26.7px] pl-0 text-base font-heading-04-600">
                   <div className="self-stretch relative leading-[24px]">
                     Students
                   </div>
@@ -344,7 +344,7 @@ const HomePage: FunctionComponent = () => {
                     10+
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-start justify-start relative text-base font-body-xl-500">
+                <div className="self-stretch flex flex-col items-start justify-start relative text-base font-heading-04-600">
                   <div className="relative leading-[24px] z-[0]">Districts</div>
                   <div className="w-6 absolute !m-[0] bottom-[0px] left-[0px] box-border h-px z-[1] border-b-[1px] border-solid border-silver" />
                 </div>
@@ -369,7 +369,7 @@ const HomePage: FunctionComponent = () => {
             src="/image-5@2x.png"
           />
         </header>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[17] text-center text-17xl text-aqua-deep font-body-xl-500 sm:pl-[05px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[17] text-center text-17xl text-aqua-deep font-heading-04-600 sm:pl-[05px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold">
               <span>Learn coding</span>
@@ -496,7 +496,7 @@ const HomePage: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[16] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[05px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[16] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[05px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold whitespace-pre-wrap">
               With CoDesk Premium, your child gets private tutoring from best
@@ -642,7 +642,7 @@ const HomePage: FunctionComponent = () => {
             </div>
           </div>
         </section>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[15] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-center p-5 gap-[20px] z-[15] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch flex flex-col items-center justify-center pt-0 px-0 pb-[0.5px]">
             <div className="self-stretch relative leading-[120%] font-semibold">
               Choose a coding course that excites your child
@@ -851,7 +851,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent3Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 See All course
               </div>
             </button>
@@ -860,7 +860,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent3Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -893,7 +893,7 @@ const HomePage: FunctionComponent = () => {
                     Introduction to Basic Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A perfect course for kids who want to test drive to coding
                     road.
@@ -912,7 +912,7 @@ const HomePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -1164,7 +1164,7 @@ const HomePage: FunctionComponent = () => {
                     Intermidiate Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A course for those who want to master the art of coding and
                     create a better future through code.
@@ -1183,7 +1183,7 @@ const HomePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -1435,7 +1435,7 @@ const HomePage: FunctionComponent = () => {
                     Advanced Programming Concepts
                   </div>
                 </div>
-                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-body-xl-500">
+                <div className="self-stretch flex flex-col items-center justify-center min-h-[63px] font-heading-04-600">
                   <div className="w-full relative leading-[150%] inline-block max-w-[358px]">
                     A perfect course for kids who want to use coding to solve
                     real-world problems and create a better future.
@@ -1454,7 +1454,7 @@ const HomePage: FunctionComponent = () => {
                   </div>
                 </div>
               </div>
-              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-body-xl-500">
+              <div className="self-stretch bg-nero flex flex-col items-center justify-center p-[5px] gap-[5px] text-left text-sm text-blues font-heading-04-600">
                 <div className="self-stretch flex flex-col items-start justify-start">
                   <div className="self-stretch flex flex-row items-center justify-start gap-[10px]">
                     <img
@@ -1888,7 +1888,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent4Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Become a Teacher
               </div>
             </button>
@@ -1897,7 +1897,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent4Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2014,7 +2014,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent5Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 See Competetions
               </div>
             </button>
@@ -2023,7 +2023,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent5Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2121,7 +2121,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent6Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Show More Video Testimonial
               </div>
             </button>
@@ -2130,7 +2130,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent6Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Show More Video Testimonial
               </div>
             </button>
@@ -2323,7 +2323,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent7Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 See more reviews
               </div>
             </button>
@@ -2332,7 +2332,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent7Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2379,7 +2379,7 @@ const HomePage: FunctionComponent = () => {
             </div>
           </div>
         </div>
-        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-body-xl-500 sm:pl-[5px] sm:pr-[5px] sm:box-border">
+        <section className="self-stretch bg-nero flex flex-col items-center justify-start p-5 gap-[20px] z-[7] text-center text-17xl text-black1 font-heading-04-600 sm:pl-[5px] sm:pr-[5px] sm:box-border">
           <div className="self-stretch h-[62px] flex flex-col items-center justify-start pt-0 px-0 pb-[0.5px] box-border">
             <div className="self-stretch relative leading-[120%] font-semibold">
               See amazing projects created by our students
@@ -2427,7 +2427,7 @@ const HomePage: FunctionComponent = () => {
                     className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
                     onClick={onButtonsorangeContent8Click}
                   >
-                    <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+                    <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                       View Project
                     </div>
                   </button>
@@ -2480,7 +2480,7 @@ const HomePage: FunctionComponent = () => {
                     className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
                     onClick={onButtonsorangeContent9Click}
                   >
-                    <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+                    <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                       View Project
                     </div>
                   </button>
@@ -2533,7 +2533,7 @@ const HomePage: FunctionComponent = () => {
                     className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
                     onClick={onButtonsorangeContent10Click}
                   >
-                    <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+                    <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                       View Project
                     </div>
                   </button>
@@ -2552,7 +2552,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent8Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 See more projects
               </div>
             </button>
@@ -2561,7 +2561,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent11Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2700,7 +2700,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent9Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Meet our team
               </div>
             </button>
@@ -2709,7 +2709,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent12Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2788,7 +2788,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent10Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Know more CoDesk
               </div>
             </button>
@@ -2797,7 +2797,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent13Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Try a free class
               </div>
             </button>
@@ -2832,7 +2832,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent11Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Become a Teacher
               </div>
             </button>
@@ -2841,7 +2841,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent14Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 Ask your doubt?
               </div>
             </button>
@@ -2890,23 +2890,23 @@ const HomePage: FunctionComponent = () => {
           <div className="self-stretch flex flex-row flex-wrap items-center justify-center p-5">
             <form className="m-0 w-[550px] shadow-[0px_0px_24px_rgba(0,_0,_0,_0.03)] rounded-xl bg-nero box-border flex flex-col items-start justify-start py-7 px-[30px] gap-[17px] border-[1px] border-solid border-nero md:w-[350px]">
               <div className="self-stretch flex flex-col items-start justify-start">
-                <div className="self-stretch relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero1 text-left">
+                <div className="self-stretch relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero1 text-left">
                   Fill in your details to join the party!
                 </div>
               </div>
               <div className="self-stretch flex flex-col items-start justify-start gap-[10px]">
                 <input
-                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-heading-04-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Your name"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-heading-04-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Email address"
                   type="text"
                 />
                 <input
-                  className="[outline:none] font-body-xl-500 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
+                  className="[outline:none] font-heading-04-600 text-base bg-[transparent] self-stretch rounded flex flex-col items-start justify-start py-4 px-3 text-gray1-300 border-[1px] border-solid border-gray1-400"
                   placeholder="Phone Number"
                   type="text"
                 />
@@ -2915,7 +2915,7 @@ const HomePage: FunctionComponent = () => {
                 className="cursor-pointer py-[9px] px-5 bg-aqua-deep rounded flex flex-row items-center justify-center border-[1px] border-solid border-nero"
                 onClick={openImagePopup}
               >
-                <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+                <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                   Subimt
                 </div>
               </button>
@@ -2993,7 +2993,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonswhiteContent12Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-aqua-deep text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-aqua-deep text-center inline-block max-h-[58px]">
                 Become a Teacher
               </div>
             </button>
@@ -3002,7 +3002,7 @@ const HomePage: FunctionComponent = () => {
               autoFocus={true}
               onClick={onButtonsorangeContent16Click}
             >
-              <div className="relative text-lg leading-[150%] font-semibold font-body-xl-500 text-nero text-center inline-block max-h-[58px]">
+              <div className="relative text-lg leading-[150%] font-semibold font-heading-04-600 text-nero text-center inline-block max-h-[58px]">
                 support us
               </div>
             </button>
